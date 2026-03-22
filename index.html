@@ -1,0 +1,2949 @@
+
+<!doctype html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>Linda Keichian &#8211; Crypto Coach and Consultant</title>
+	<meta name='robots' content='max-image-preview:large' />
+	<style>
+		img:is([sizes="auto" i], [sizes^="auto," i]) {
+			contain-intrinsic-size: 3000px 1500px
+		}
+	</style>
+	<link rel='dns-prefetch' href='http://www.googletagmanager.com/' />
+	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+	<link rel="alternate" type="application/rss+xml" title="Linda Keichian &raquo; Feed" href="feed/index" />
+	<link rel="alternate" type="application/rss+xml" title="Linda Keichian &raquo; Comments Feed"
+		href="comments/feed/index" />
+	<!-- This site uses the Google Analytics by MonsterInsights plugin v9.5.2 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+	<script src="http://www.googletagmanager.com/gtag/js?id=G-FJGE64E4XR" data-cfasync="false" data-wpfc-render="false"
+		async></script>
+	<script data-cfasync="false" data-wpfc-render="false">
+		var mi_version = '9.5.2';
+		var mi_track_user = true;
+		var mi_no_track_reason = '';
+		var MonsterInsightsDefaultLocations = { "page_location": "https:\/\/lindakeichian.com\/" };
+		if (typeof MonsterInsightsPrivacyGuardFilter === 'function') {
+			var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter(MonsterInsightsExcludeQuery) : MonsterInsightsPrivacyGuardFilter(MonsterInsightsDefaultLocations);
+		} else {
+			var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+		}
+
+		var disableStrs = [
+			'ga-disable-G-FJGE64E4XR',
+		];
+
+		/* Function to detect opted out users */
+		function __gtagTrackerIsOptedOut() {
+			for (var index = 0; index < disableStrs.length; index++) {
+				if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+					return true;
+				}
+			}
+
+			return false;
+		}
+
+		/* Disable tracking if the opt-out cookie exists. */
+		if (__gtagTrackerIsOptedOut()) {
+			for (var index = 0; index < disableStrs.length; index++) {
+				window[disableStrs[index]] = true;
+			}
+		}
+
+		/* Opt-out function */
+		function __gtagTrackerOptout() {
+			for (var index = 0; index < disableStrs.length; index++) {
+				document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+				window[disableStrs[index]] = true;
+			}
+		}
+
+		if ('undefined' === typeof gaOptout) {
+			function gaOptout() {
+				__gtagTrackerOptout();
+			}
+		}
+		window.dataLayer = window.dataLayer || [];
+
+		window.MonsterInsightsDualTracker = {
+			helpers: {},
+			trackers: {},
+		};
+		if (mi_track_user) {
+			function __gtagDataLayer() {
+				dataLayer.push(arguments);
+			}
+
+			function __gtagTracker(type, name, parameters) {
+				if (!parameters) {
+					parameters = {};
+				}
+
+				if (parameters.send_to) {
+					__gtagDataLayer.apply(null, arguments);
+					return;
+				}
+
+				if (type === 'event') {
+					parameters.send_to = monsterinsights_frontend.v4_id;
+					var hookName = name;
+					if (typeof parameters['event_category'] !== 'undefined') {
+						hookName = parameters['event_category'] + ':' + name;
+					}
+
+					if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+						MonsterInsightsDualTracker.trackers[hookName](parameters);
+					} else {
+						__gtagDataLayer('event', name, parameters);
+					}
+
+				} else {
+					__gtagDataLayer.apply(null, arguments);
+				}
+			}
+
+			__gtagTracker('js', new Date());
+			__gtagTracker('set', {
+				'developer_id.dZGIzZG': true,
+			});
+			if (MonsterInsightsLocations.page_location) {
+				__gtagTracker('set', MonsterInsightsLocations);
+			}
+			__gtagTracker('config', 'G-FJGE64E4XR', { "forceSSL": "true", "link_attribution": "true" });
+			window.gtag = __gtagTracker; (function () {
+				/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+				/* ga and __gaTracker compatibility shim. */
+				var noopfn = function () {
+					return null;
+				};
+				var newtracker = function () {
+					return new Tracker();
+				};
+				var Tracker = function () {
+					return null;
+				};
+				var p = Tracker.prototype;
+				p.get = noopfn;
+				p.set = noopfn;
+				p.send = function () {
+					var args = Array.prototype.slice.call(arguments);
+					args.unshift('send');
+					__gaTracker.apply(null, args);
+				};
+				var __gaTracker = function () {
+					var len = arguments.length;
+					if (len === 0) {
+						return;
+					}
+					var f = arguments[len - 1];
+					if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+						if ('send' === arguments[0]) {
+							var hitConverted, hitObject = false, action;
+							if ('event' === arguments[1]) {
+								if ('undefined' !== typeof arguments[3]) {
+									hitObject = {
+										'eventAction': arguments[3],
+										'eventCategory': arguments[2],
+										'eventLabel': arguments[4],
+										'value': arguments[5] ? arguments[5] : 1,
+									}
+								}
+							}
+							if ('pageview' === arguments[1]) {
+								if ('undefined' !== typeof arguments[2]) {
+									hitObject = {
+										'eventAction': 'page_view',
+										'page_path': arguments[2],
+									}
+								}
+							}
+							if (typeof arguments[2] === 'object') {
+								hitObject = arguments[2];
+							}
+							if (typeof arguments[5] === 'object') {
+								Object.assign(hitObject, arguments[5]);
+							}
+							if ('undefined' !== typeof arguments[1].hitType) {
+								hitObject = arguments[1];
+								if ('pageview' === hitObject.hitType) {
+									hitObject.eventAction = 'page_view';
+								}
+							}
+							if (hitObject) {
+								action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+								hitConverted = mapArgs(hitObject);
+								__gtagTracker('event', action, hitConverted);
+							}
+						}
+						return;
+					}
+
+					function mapArgs(args) {
+						var arg, hit = {};
+						var gaMap = {
+							'eventCategory': 'event_category',
+							'eventAction': 'event_action',
+							'eventLabel': 'event_label',
+							'eventValue': 'event_value',
+							'nonInteraction': 'non_interaction',
+							'timingCategory': 'event_category',
+							'timingVar': 'name',
+							'timingValue': 'value',
+							'timingLabel': 'event_label',
+							'page': 'page_path',
+							'location': 'page_location',
+							'title': 'page_title',
+							'referrer': 'page_referrer',
+						};
+						for (arg in args) {
+							if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+								hit[gaMap[arg]] = args[arg];
+							} else {
+								hit[arg] = args[arg];
+							}
+						}
+						return hit;
+					}
+
+					try {
+						f.hitCallback();
+					} catch (ex) {
+					}
+				};
+				__gaTracker.create = newtracker;
+				__gaTracker.getByName = newtracker;
+				__gaTracker.getAll = function () {
+					return [];
+				};
+				__gaTracker.remove = noopfn;
+				__gaTracker.loaded = true;
+				window['__gaTracker'] = __gaTracker;
+			})();
+		} else {
+			console.log("");
+			(function () {
+				function __gtagTracker() {
+					return null;
+				}
+
+				window['__gtagTracker'] = __gtagTracker;
+				window['gtag'] = __gtagTracker;
+			})();
+		}
+	</script>
+	<!-- / Google Analytics by MonsterInsights -->
+	<script>
+		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/lindakeichian.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.1" } };
+		/*! This file is auto-generated */
+		!function (i, n) { var o, s, e; function c(e) { try { var t = { supportTests: e, timestamp: (new Date).valueOf() }; sessionStorage.setItem(o, JSON.stringify(t)) } catch (e) { } } function p(e, t, n) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data), r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)); return t.every(function (e, t) { return e === r[t] }) } function u(e, t, n) { switch (t) { case "flag": return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"); case "emoji": return !n(e, "\ud83d\udc26\u200d\ud83d\udd25", "\ud83d\udc26\u200b\ud83d\udd25") }return !1 } function f(e, t, n) { var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"), a = r.getContext("2d", { willReadFrequently: !0 }), o = (a.textBaseline = "top", a.font = "600 32px Arial", {}); return e.forEach(function (e) { o[e] = t(a, e, n) }), o } function t(e) { var t = i.createElement("script"); t.src = e, t.defer = !0, i.head.appendChild(t) } "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = { everything: !0, everythingExceptFlag: !0 }, e = new Promise(function (e) { i.addEventListener("DOMContentLoaded", e, { once: !0 }) }), new Promise(function (t) { var n = function () { try { var e = JSON.parse(sessionStorage.getItem(o)); if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests } catch (e) { } return null }(); if (!n) { if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try { var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));", r = new Blob([e], { type: "text/javascript" }), a = new Worker(URL.createObjectURL(r), { name: "wpTestEmojiSupports" }); return void (a.onmessage = function (e) { c(n = e.data), a.terminate(), t(n) }) } catch (e) { } c(n = f(s, u, p)) } t(n) }).then(function (e) { for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]); n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function () { n.DOMReady = !0 } }).then(function () { return e }).then(function () { var e; n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji))) })) }((window, document), window._wpemojiSettings);
+	</script>
+	<style id='wp-emoji-styles-inline-css'>
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 0.07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<style id='classic-theme-styles-inline-css'>
+		/*! This file is auto-generated */
+		.wp-block-button__link {
+			color: #fff;
+			background-color: #32373c;
+			border-radius: 9999px;
+			box-shadow: none;
+			text-decoration: none;
+			padding: calc(.667em + 2px) calc(1.333em + 2px);
+			font-size: 1.125em
+		}
+
+		.wp-block-file__button {
+			background: #32373c;
+			color: #fff;
+			text-decoration: none
+		}
+	</style>
+	<style id='global-styles-inline-css'>
+		:root {
+			--wp--preset--aspect-ratio--square: 1;
+			--wp--preset--aspect-ratio--4-3: 4/3;
+			--wp--preset--aspect-ratio--3-4: 3/4;
+			--wp--preset--aspect-ratio--3-2: 3/2;
+			--wp--preset--aspect-ratio--2-3: 2/3;
+			--wp--preset--aspect-ratio--16-9: 16/9;
+			--wp--preset--aspect-ratio--9-16: 9/16;
+			--wp--preset--color--black: #000000;
+			--wp--preset--color--cyan-bluish-gray: #abb8c3;
+			--wp--preset--color--white: #ffffff;
+			--wp--preset--color--pale-pink: #f78da7;
+			--wp--preset--color--vivid-red: #cf2e2e;
+			--wp--preset--color--luminous-vivid-orange: #ff6900;
+			--wp--preset--color--luminous-vivid-amber: #fcb900;
+			--wp--preset--color--light-green-cyan: #7bdcb5;
+			--wp--preset--color--vivid-green-cyan: #00d084;
+			--wp--preset--color--pale-cyan-blue: #8ed1fc;
+			--wp--preset--color--vivid-cyan-blue: #0693e3;
+			--wp--preset--color--vivid-purple: #9b51e0;
+			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+			--wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+			--wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+			--wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+			--wp--preset--font-size--small: 13px;
+			--wp--preset--font-size--medium: 20px;
+			--wp--preset--font-size--large: 36px;
+			--wp--preset--font-size--x-large: 42px;
+			--wp--preset--spacing--20: 0.44rem;
+			--wp--preset--spacing--30: 0.67rem;
+			--wp--preset--spacing--40: 1rem;
+			--wp--preset--spacing--50: 1.5rem;
+			--wp--preset--spacing--60: 2.25rem;
+			--wp--preset--spacing--70: 3.38rem;
+			--wp--preset--spacing--80: 5.06rem;
+			--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+			--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+			--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+		}
+
+		:where(.is-layout-flex) {
+			gap: 0.5em;
+		}
+
+		:where(.is-layout-grid) {
+			gap: 0.5em;
+		}
+
+		body .is-layout-flex {
+			display: flex;
+		}
+
+		.is-layout-flex {
+			flex-wrap: wrap;
+			align-items: center;
+		}
+
+		.is-layout-flex> :is(*, div) {
+			margin: 0;
+		}
+
+		body .is-layout-grid {
+			display: grid;
+		}
+
+		.is-layout-grid> :is(*, div) {
+			margin: 0;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		.has-black-color {
+			color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-color {
+			color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-color {
+			color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-color {
+			color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-color {
+			color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-color {
+			color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-color {
+			color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-color {
+			color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-color {
+			color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-color {
+			color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-color {
+			color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-color {
+			color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-background-color {
+			background-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-background-color {
+			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-background-color {
+			background-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-background-color {
+			background-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-background-color {
+			background-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-background-color {
+			background-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-background-color {
+			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-background-color {
+			background-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-border-color {
+			border-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-border-color {
+			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-border-color {
+			border-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-border-color {
+			border-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-border-color {
+			border-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-border-color {
+			border-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-border-color {
+			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-border-color {
+			border-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+		}
+
+		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+		}
+
+		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+		}
+
+		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+		}
+
+		.has-cool-to-warm-spectrum-gradient-background {
+			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+		}
+
+		.has-blush-light-purple-gradient-background {
+			background: var(--wp--preset--gradient--blush-light-purple) !important;
+		}
+
+		.has-blush-bordeaux-gradient-background {
+			background: var(--wp--preset--gradient--blush-bordeaux) !important;
+		}
+
+		.has-luminous-dusk-gradient-background {
+			background: var(--wp--preset--gradient--luminous-dusk) !important;
+		}
+
+		.has-pale-ocean-gradient-background {
+			background: var(--wp--preset--gradient--pale-ocean) !important;
+		}
+
+		.has-electric-grass-gradient-background {
+			background: var(--wp--preset--gradient--electric-grass) !important;
+		}
+
+		.has-midnight-gradient-background {
+			background: var(--wp--preset--gradient--midnight) !important;
+		}
+
+		.has-small-font-size {
+			font-size: var(--wp--preset--font-size--small) !important;
+		}
+
+		.has-medium-font-size {
+			font-size: var(--wp--preset--font-size--medium) !important;
+		}
+
+		.has-large-font-size {
+			font-size: var(--wp--preset--font-size--large) !important;
+		}
+
+		.has-x-large-font-size {
+			font-size: var(--wp--preset--font-size--x-large) !important;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		:root :where(.wp-block-pullquote) {
+			font-size: 1.5em;
+			line-height: 1.6;
+		}
+	</style>
+	<link rel='stylesheet' id='contact-form-7-css'
+		href='wp-content/plugins/contact-form-7/includes/css/stylesfc7a.css?ver=6.0.6' media='all' />
+	<link rel='stylesheet' id='google-fonts-css'
+		href='http://fonts.googleapis.com/css2?family=Inter%3Awght%40300%3B400%3B500%3B600%3B700%3B900&amp;display=swap&amp;ver=6.8.1'
+		media='all' />
+	<link rel='stylesheet' id='font-awesomes-css' href='wp-content/themes/zuzu/assets/css/all.min9e0b.css?ver=5.15.1'
+		media='all' />
+	<link rel='stylesheet' id='select2-css' href='wp-content/themes/zuzu/assets/css/select2.min.css' media='all' />
+	<link rel='stylesheet' id='bootstrap-css' href='wp-content/themes/zuzu/assets/css/bootstrap.minf9b8.css?ver=4.0'
+		media='all' />
+	<link rel='stylesheet' id='nice-select-css'
+		href='wp-content/themes/zuzu/assets/css/nice-select.min9875.css?ver=null' media='all' />
+	<link rel='stylesheet' id='zuzu-core-css' href='wp-content/themes/zuzu/assets/css/core8a54.css?ver=1.0.0'
+		media='all' />
+	<link rel='stylesheet' id='zuzu-custom-css' href='wp-content/themes/zuzu/assets/css/theme-style8a54.css?ver=1.0.0'
+		media='all' />
+	<link rel='stylesheet' id='zuzu-style-css' href='wp-content/themes/zuzu/style8a54.css?ver=1.0.0' media='all' />
+	<link rel='stylesheet' id='zuzu-responsive-css'
+		href='wp-content/themes/zuzu/assets/css/theme-responsive8a54.css?ver=1.0.0' media='all' />
+	<link rel='stylesheet' id='zuzu-theme-options-style-css'
+		href='wp-content/themes/zuzu/assets/css/theme_options_style0899.css?ver=6.8.1' media='all' />
+	<style id='zuzu-theme-options-style-inline-css'>
+		.site-branding,
+		.site-logo {
+			max-width: 185px;
+		}
+
+		@media (max-width: 680px) {
+
+			.site-branding,
+			.site-logo {
+				max-width: 80px;
+			}
+		}
+
+		/** #header{
+   margin: 0 auto;
+ }**/
+		:root {
+			--accent-color: rgba(114, 79, 229, 1);
+			--accent-color-2: rgba(114, 79, 229, 1);
+			--heading-color: rgba(19, 17, 26, 1);
+			--text-color: rgba(247, 246, 251, 0.8);
+		}
+
+		body {
+			background-color: rgba(0, 0, 0, 1);
+		}
+	</style>
+	<style id='akismet-widget-style-inline-css'>
+		.a-stats {
+			--akismet-color-mid-green: #357b49;
+			--akismet-color-white: #fff;
+			--akismet-color-light-grey: #f6f7f7;
+
+			max-width: 350px;
+			width: auto;
+		}
+
+		.a-stats * {
+			all: unset;
+			box-sizing: border-box;
+		}
+
+		.a-stats strong {
+			font-weight: 600;
+		}
+
+		.a-stats a.a-stats__link,
+		.a-stats a.a-stats__link:visited,
+		.a-stats a.a-stats__link:active {
+			background: var(--akismet-color-mid-green);
+			border: none;
+			box-shadow: none;
+			border-radius: 8px;
+			color: var(--akismet-color-white);
+			cursor: pointer;
+			display: block;
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+			font-weight: 500;
+			padding: 12px;
+			text-align: center;
+			text-decoration: none;
+			transition: all 0.2s ease;
+		}
+
+		/* Extra specificity to deal with TwentyTwentyOne focus style */
+		.widget .a-stats a.a-stats__link:focus {
+			background: var(--akismet-color-mid-green);
+			color: var(--akismet-color-white);
+			text-decoration: none;
+		}
+
+		.a-stats a.a-stats__link:hover {
+			filter: brightness(110%);
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06), 0 0 2px rgba(0, 0, 0, 0.16);
+		}
+
+		.a-stats .count {
+			color: var(--akismet-color-white);
+			display: block;
+			font-size: 1.5em;
+			line-height: 1.4;
+			padding: 0 13px;
+			white-space: nowrap;
+		}
+	</style>
+	<link rel='stylesheet' id='chaty-front-css-css'
+		href='wp-content/plugins/chaty/css/chaty-front.minee04.css?ver=3.4.01727722992' media='all' />
+	<link rel='stylesheet' id='elementor-frontend-css'
+		href='wp-content/plugins/elementor/assets/css/frontend.min89ce.css?ver=3.28.4' media='all' />
+	<link rel='stylesheet' id='elementor-post-8-css'
+		href='wp-content/uploads/elementor/css/post-8cc76.css?ver=1746571366' media='all' />
+	<link rel='stylesheet' id='mas-addons-elementor-animations-css'
+		href='wp-content/plugins/mas-addons/assets/css/animate1b09.css?ver=0.02080300%201746695058' media='all' />
+	<link rel='stylesheet' id='slick-css'
+		href='wp-content/plugins/mas-addons/assets/css/slicka5ff.css?ver=0.02081300%201746695058' media='all' />
+	<link rel='stylesheet' id='owl-carousel-css'
+		href='wp-content/plugins/mas-addons/assets/css/owl.carousel.min4aa0.css?ver=0.02082000%201746695058'
+		media='all' />
+	<link rel='stylesheet' id='magnific-popup-css'
+		href='wp-content/plugins/mas-addons/assets/css/magnific-popup2744.css?ver=0.02082600%201746695058'
+		media='all' />
+	<link rel='stylesheet' id='mas-addons-css'
+		href='wp-content/plugins/mas-addons/assets/css/addons2b9d.css?ver=0.02083200%201746695058' media='all' />
+	<link rel='stylesheet' id='mas-crivite-button-css'
+		href='wp-content/plugins/mas-addons/assets/css/creative-buttonbd49.css?ver=0.02083700%201746695058'
+		media='all' />
+	<link rel='stylesheet' id='mas-group-image-css'
+		href='wp-content/plugins/mas-addons/assets/css/group-imaged444.css?ver=0.02084200%201746695058' media='all' />
+	<link rel='stylesheet' id='zuzu-helper-addons-css'
+		href='wp-content/plugins/zuzu-helper/assets/css/addons0d9f.css?ver=0.02087400%201746695058' media='all' />
+	<link rel='stylesheet' id='zuzu-woocommerce-css'
+		href='wp-content/plugins/zuzu-helper/assets/css/zuzu-woocommerce5b4d.css?ver=0.02087900%201746695058'
+		media='all' />
+	<link rel='stylesheet' id='zuzu-custom-fonts-css'
+		href='wp-content/plugins/zuzu-helper/assets/css/custom-fonts0e84.css?ver=0.02088400%201746695058' media='all' />
+	<link rel='stylesheet' id='zuzu-css-css'
+		href='wp-content/plugins/zuzu-helper/assets/css/zuzu2cab.css?ver=0.02089100%201746695058' media='all' />
+	<link rel='stylesheet' id='widget-heading-css'
+		href='wp-content/plugins/elementor/assets/css/widget-heading.min89ce.css?ver=3.28.4' media='all' />
+	<link rel='stylesheet' id='e-animation-zoomIn-css'
+		href='wp-content/plugins/elementor/assets/lib/animations/styles/zoomIn.min89ce.css?ver=3.28.4' media='all' />
+	<link rel='stylesheet' id='widget-image-css'
+		href='wp-content/plugins/elementor/assets/css/widget-image.min89ce.css?ver=3.28.4' media='all' />
+	<link rel='stylesheet' id='elementor-post-16945-css'
+		href='wp-content/uploads/elementor/css/post-169455113.css?ver=1746571369' media='all' />
+	<link rel='stylesheet' id='elementor-gf-local-roboto-css'
+		href='wp-content/uploads/elementor/google-fonts/css/roboto0c1a.css?ver=1742266666' media='all' />
+	<link rel='stylesheet' id='elementor-gf-local-robotoslab-css'
+		href='wp-content/uploads/elementor/google-fonts/css/robotoslab19ff.css?ver=1742266683' media='all' />
+	<link rel='stylesheet' id='elementor-gf-local-cabin-css'
+		href='wp-content/uploads/elementor/google-fonts/css/cabin7d8e.css?ver=1742266689' media='all' />
+	<link rel='stylesheet' id='elementor-gf-local-inter-css'
+		href='wp-content/uploads/elementor/google-fonts/css/interd7aa.css?ver=1742266727' media='all' />
+	<script src="wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
+	<script src="wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
+	<script src="wp-content/plugins/mas-addons/assets/js/slick0899.js?ver=6.8.1" id="slick-js"></script>
+	<script src="wp-content/plugins/mas-addons/assets/js/owl.carousel.min0899.js?ver=6.8.1"
+		id="owl-carousel-js"></script>
+	<script src="wp-content/plugins/mas-addons/assets/js/isotope.pkgd.min0899.js?ver=6.8.1" id="isotope-js"></script>
+	<script src="wp-content/plugins/mas-addons/assets/js/packery-mode.pkgd.min0899.js?ver=6.8.1"
+		id="packery-js"></script>
+	<script src="wp-content/plugins/mas-addons/assets/js/addon0899.js?ver=6.8.1" id="mas-addons-js"></script>
+	<script src="wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.mina8cb.js?ver=9.5.2"
+		id="monsterinsights-frontend-script-js" async data-wp-strategy="async"></script>
+	<script data-cfasync="false" data-wpfc-render="false"
+		id='monsterinsights-frontend-script-js-extra'>var monsterinsights_frontend = { "js_events_tracking": "true", "download_extensions": "doc,pdf,ppt,zip,xls,docx,pptx,xlsx", "inbound_paths": "[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]", "home_url": "https:\/\/lindakeichian.com", "hash_tracking": "false", "v4_id": "G-FJGE64E4XR" };</script>
+
+	<!-- Google tag (gtag.js) snippet added by Site Kit -->
+
+	<!-- Google Analytics snippet added by Site Kit -->
+	<script src="https://www.googletagmanager.com/gtag/js?id=GT-5NPLQJJC" id="google_gtagjs-js" async></script>
+	<script id="google_gtagjs-js-after">
+		window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); }
+		gtag("set", "linker", { "domains": ["lindakeichian.com"] });
+		gtag("js", new Date());
+		gtag("set", "developer_id.dZTNiMT", true);
+		gtag("config", "GT-5NPLQJJC");
+	</script>
+
+	<!-- End Google tag (gtag.js) snippet added by Site Kit -->
+	<link rel="https://api.w.org/" href="wp-json/index" />
+	<link rel="alternate" title="JSON" type="application/json" href="wp-json/wp/v2/pages/16945.json" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+	<meta name="generator" content="WordPress 6.8.1" />
+	<link rel="canonical" href="index" />
+	<link rel='shortlink' href='index' />
+	<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
+		href="wp-json/oembed/1.0/embed38b3.json?url=https%3A%2F%2Flindakeichian.com%2F" />
+	<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
+		href="wp-json/oembed/1.0/embed1b49?url=https%3A%2F%2Flindakeichian.com%2F&amp;format=xml" />
+	<meta name="generator" content="Redux 4.5.7" />
+	<meta name="generator" content="Site Kit by Google 1.152.1" />
+	<meta name="generator"
+		content="Elementor 3.28.4; features: e_font_icon_svg, additional_custom_breakpoints, e_local_google_fonts, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap">
+		<meta name="description"
+        content="We don’t simply teach you to trade, We teach you how to make money from your trading - Imagine having the financial freedom to live life on your terms. No more debt, no more financial stress." />
+	<meta name="robots" content="max-image-preview:large" />
+	<meta property="og:description"
+        content="We don’t simply teach you to trade, We teach you how to make money from your trading - Imagine having the financial freedom to live life on your terms. No more debt, no more financial stress." />
+    <meta property="og:url" content="https://lindakeichian.com/" /><meta name="description"
+        content="We don’t simply teach you to trade, We teach you how to make money from your trading - Imagine having the financial freedom to live life on your terms. No more debt, no more financial 
+	<style>
+		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+			background-image: none !important;
+		}
+
+		@media screen and (max-height: 1024px) {
+
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+				background-image: none !important;
+			}
+		}
+
+		@media screen and (max-height: 640px) {
+
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+				background-image: none !important;
+			}
+		}
+	</style>
+<link rel="icon" href="images/fav.png"
+		sizes="32x32" />
+	<link rel="icon" href="images/fav.png"
+		sizes="192x192" />
+	<link rel="apple-touch-icon"
+		href="images/fav.png" />
+	<meta name="msapplication-TileImage"
+		content="https://lindakeichian.com/images/fav.png" />
+	<style id="zuzu-dynamic-css" title="dynamic-css" class="redux-options-output">
+		body {
+			font-family: Inter;
+			font-weight: 400;
+			font-style: normal;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-family: Inter;
+			font-weight: 700;
+			font-style: normal;
+		}
+	</style>
+</head>
+
+
+<body data-rsssl=1
+	class="home wp-singular page-template page-template-elementor_header_footer page page-id-16945 wp-theme-zuzu no-sidebar elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-16945">
+
+	<!-- preloader  -->
+
+	<div class="zuzu-preloader-wrap">
+		<div class="zuzu-preloader">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+
+	<div id="page" class="site">
+		<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
+
+		<!-- end zuzu header -->
+
+		<header class="site-header zuzu-elementor-header">
+			<div data-elementor-type="wp-post" data-elementor-id="18" class="elementor elementor-18"
+				data-elementor-post-type="zuzu_header">
+				<section
+					class="elementor-section elementor-top-section elementor-element elementor-element-2fa794d elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+					data-id="2fa794d" data-element_type="section"
+					data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+					<div class="elementor-container elementor-column-gap-default">
+						<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-459384f"
+							data-id="459384f" data-element_type="column">
+							<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-e3c257c elementor-widget__width-auto mas-addons-sticky-no elementor-widget elementor-widget-zuzu-logo"
+									data-id="e3c257c" data-element_type="widget"
+									data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+									data-widget_type="zuzu-logo.default">
+									<div class="elementor-widget-container">
+										<div class="ama-site-logo content-align-">
+											<a href="/" class="ama-site-logo-wrap">
+												<span class='site-'><img decoding="async"
+														src="https://lindakeichian.com/images/logo1.png"
+														alt="Logo"
+														style="height:50px;width:200px !important;"
+														class="navbar-brand__regular white-logo"></span> </a>
+
+										</div>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-1dc8398 elementor-widget__width-auto mas-addons-sticky-no elementor-widget elementor-widget-zuzu-main-menu"
+									data-id="1dc8398" data-element_type="widget"
+									data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+									data-widget_type="zuzu-main-menu.default">
+									<div class="elementor-widget-container">
+
+
+										<div
+											class="zuzu-main-menu-wrap navbar menu-style-inline  megamenu-width-custom">
+											<button class="navbar-toggler open-menu" type="button"
+												data-toggle="navbarToggler" aria-label="Toggle navigation">
+												<span class="navbar-toggler-icon">
+													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+														viewBox="0 0 24 24" fill="none">
+														<path d="M4 6H20M4 12H20M4 18H20" stroke="white"
+															stroke-width="2" stroke-linecap="round"
+															stroke-linejoin="round"></path>
+													</svg> </span>
+
+
+											</button>
+											<!-- end of Nav toggler -->
+											<div class="navbar-inner">
+
+												<div class="site-branding mobile-version  has-site-logo">
+
+
+
+													<a href="/">
+
+
+														<img decoding="async"
+															src="https://lindakeichian.com/images/logo1.png"
+															alt="Logo"
+															class="navbar-brand__regular white-logo" > </a>
+												</div><!-- .site-branding -->
+
+												<div class="zuzu-mobile-menu"></div>
+												<button class="navbar-toggler close-menu" type="button"
+													data-toggle="navbarToggler" aria-label="Toggle navigation">
+
+													<span class="navbar-toggler-icon close">
+														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+															viewBox="0 0 24 24" fill="none">
+															<path d="M6 18L18 6M6 6L18 18" stroke="white"
+																stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round"></path>
+														</svg>
+													</span>
+
+												</button>
+
+												<nav id="site-navigation" class="main-navigation ">
+
+													<div class="zuzu-menu-container">
+														<ul id="navbar-nav" class="navbar-nav">
+															<li
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-16945 current_page_item menu-item-17048  ">
+																<a href="/" aria-current="page">Home</a></li>
+															<li
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17049  ">
+																<a href="/about/index">About Me</a></li>
+															<li
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17050  ">
+																<a href="/contact/index">Contact Me</a></li>
+														</ul>
+													</div>
+												</nav><!-- #site-navigation -->
+
+
+
+
+
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-3dde889 elementor-widget__width-auto elementor-hidden-mobile mas-addons-sticky-no elementor-widget elementor-widget-mas-creative-button"
+									data-id="3dde889" data-element_type="widget"
+									data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+									data-widget_type="mas-creative-button.default">
+									<div class="elementor-widget-container">
+										<div data-magnetic="no" class="mas-creative-btn-wrap">
+											<a class="mas-creative-btn mas-stl--hermosa mas-eft--exploit"
+												href="https://t.me/LindaKeichian" rel="nofollow"><span>Contact Me</span></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</header>
+		<div data-elementor-type="wp-page" data-elementor-id="16945" class="elementor elementor-16945"
+			data-elementor-post-type="page">
+			<section
+				class="elementor-section elementor-top-section elementor-element elementor-element-928fce4 elementor-section-full_width elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+				data-id="928fce4" data-element_type="section"
+				data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+				<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3366154"
+						data-id="3366154" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+							<section
+								class="elementor-section elementor-inner-section elementor-element elementor-element-5a64433 elementor-section-content-middle elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+								data-id="5a64433" data-element_type="section"
+								data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+								<div class="elementor-container elementor-column-gap-default">
+									<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b1c94a0"
+										data-id="b1c94a0" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-7f97d14 mas-addons-sticky-no elementor-widget elementor-widget-heading"
+												data-id="7f97d14" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="heading.default">
+												<div class="elementor-widget-container">
+													<h1 class="elementor-heading-title elementor-size-default">Your
+														Trusted Partner in Crypto Success!</h1>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-f155080 mas-addons-sticky-no elementor-widget elementor-widget-text-editor"
+												data-id="f155080" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="text-editor.default">
+												<div class="elementor-widget-container">
+													<p>Linda Keichian is your trusted guide throughout your crypto
+														journey. Leveraging years of expertise in blockchain technology
+														and digital currency, Linda provides personalized consulting
+														services tailored to empower individuals and businesses alike.
+													</p>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-c9a64b0 elementor-widget__width-auto mas-addons-sticky-no elementor-widget elementor-widget-mas-creative-button"
+												data-id="c9a64b0" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="mas-creative-button.default">
+												<div class="elementor-widget-container">
+													<div data-magnetic="no" class="mas-creative-btn-wrap">
+														<a class="mas-creative-btn mas-stl--hermosa mas-eft--exploit"
+															href="https://t.me/LindaKeichian"
+															rel="nofollow"><span>Contact Me</span></a>
+													</div>
+												</div>
+											</div>
+											<!-- <div class="elementor-element elementor-element-9eb5439 elementor-widget__width-auto elementor-widget-mobile__width-auto mas-addons-sticky-no elementor-widget elementor-widget-mas-addons-btn"
+												data-id="9eb5439" data-element_type="widget"
+												data-settings="{&quot;lightbox_content_animation&quot;:&quot;zoomIn&quot;,&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="mas-addons-btn.default">
+												<div class="elementor-widget-container">
+													<div class="mas-addons-btn-wrapper enable-icon-box-yes">
+														<div class="mas-addons-btn default-style  d-inline-flex align-items-center elementor-animation-"
+															data-elementor-open-lightbox="yes"
+															data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;youtube&quot;,&quot;url&quot;:null,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-9eb5439&quot;,&quot;entranceAnimation&quot;:&quot;zoomIn&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;}}">
+
+															<span class="icon-before  btn-icon"><svg aria-hidden="true"
+																	class="e-font-icon-svg e-fas-play"
+																	viewBox="0 0 448 512"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z">
+																	</path>
+																</svg></span>
+															<span class="hover-animation"></span>
+															<span class="content">
+																About Me </span>
+
+														</div>
+													</div>
+												</div>
+											</div> -->
+										</div>
+									</div>
+									<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c762390"
+										data-id="c762390" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-57c5c41 fsd-css-transform-yes elementor-widget-tablet__width-auto mas-addons-sticky-no elementor-widget elementor-widget-image"
+												data-id="57c5c41" data-element_type="widget"
+												data-settings="{&quot;fd_addon_floating_fx&quot;:&quot;yes&quot;,&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img fetchpriority="high" fetchpriority="high" decoding="async"
+														width="652" height="683"
+														src="images/WhatsApp Image 2026-02-18 at 4.12.11 PM.jpeg"
+														class="attachment-large size-large wp-image-9211" alt=""
+														
+														sizes="(max-width: 652px) 100vw, 652px" />
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section
+				class="elementor-section elementor-top-section elementor-element elementor-element-2cf04ad elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+				data-id="2cf04ad" data-element_type="section"
+				data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+				<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b8bc750"
+						data-id="b8bc750" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+							<section
+								class="elementor-section elementor-inner-section elementor-element elementor-element-ec1a87b elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+								data-id="ec1a87b" data-element_type="section"
+								data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+								<div class="elementor-container elementor-column-gap-default">
+									<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7b117a2"
+										data-id="7b117a2" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-6c57421 elementor-widget__width-auto elementor-widget-tablet__width-auto mas-addons-sticky-no elementor-widget elementor-widget-image"
+												data-id="6c57421" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img decoding="async" width="1024" height="786"
+														src="wp-content/uploads/2022/12/crypto-shape-card-01-1024x786.png"
+														class="attachment-large size-large wp-image-225" alt=""
+														
+														sizes="(max-width: 1024px) 100vw, 1024px" />
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-a7c0637 elementor-widget__width-auto elementor-hidden-tablet elementor-hidden-mobile mas-addons-sticky-no elementor-widget elementor-widget-image"
+												data-id="a7c0637" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img decoding="async" width="336" height="366"
+														src="wp-content/uploads/2022/12/crypto-shape-card-02.png"
+														class="attachment-large size-large wp-image-224" alt=""
+														
+														sizes="(max-width: 336px) 100vw, 336px" />
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d39a42a"
+										data-id="d39a42a" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-0736efa mas-addons-sticky-no elementor-widget elementor-widget-heading"
+												data-id="0736efa" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="heading.default">
+												<div class="elementor-widget-container">
+													<h2 class="elementor-heading-title elementor-size-default">Bridging
+														the knowledge gap for you</h2>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-74e6306 mas-addons-sticky-no elementor-widget elementor-widget-text-editor"
+												data-id="74e6306" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="text-editor.default">
+												<div class="elementor-widget-container">
+													<p>My name is Linda Keichian and I’m a cryptocurrency enthusiast
+														with a passion for helping others succeed in this exciting and
+														ever-evolving cryptocurrency world. I hold a specialist degree
+														in Financial Engineering from the University of California,
+														where I gained a strong foundation in economics, financial
+														analysis, and computer science. After graduating, I began my
+														career at ASML, where I worked as a Quantitative analyst for 6
+														years. During my time there, I gained valuable experience in
+														statistics, as well as a deep understanding of the global
+														financial markets and how they operate. My passion for
+														cryptocurrencies developed as I saw the potential for this
+														revolutionary technology to shape the future of finance.</p>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-49f7a8e mas-addons-sticky-no elementor-widget elementor-widget-text-editor"
+												data-id="49f7a8e" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="text-editor.default">
+												<div class="elementor-widget-container">
+													<p>In recent years, I have focused my efforts on cryptocurrency and
+														have become an expert in the field. I have a strong
+														understanding of the technical aspects of cryptocurrency, as
+														well as the economic and political factors that can impact its
+														value. I am passionate about helping others to understand and
+														navigate the complex world of cryptocurrency, and that is why I
+														offer One on One coaching and signal services. Whether you are a
+														beginner looking to get started in cryptocurrency or an
+														experienced trader looking to fine-tune your strategy, I am here
+														to help you reach your goals. I also provide comprehensive
+														market analysis to keep my clients in the know on all the latest
+														trends and developments. Basically, I’m here to be your personal
+														crypto sherpa, guiding you through the wild world of digital
+														currency.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+							<section
+								class="elementor-section elementor-inner-section elementor-element elementor-element-c4b4f1d elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+								data-id="c4b4f1d" data-element_type="section"
+								data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+								<div class="elementor-container elementor-column-gap-default">
+									<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-163037b"
+										data-id="163037b" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-5f92bf8 mas-addons-sticky-no elementor-widget elementor-widget-heading"
+												data-id="5f92bf8" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="heading.default">
+												<div class="elementor-widget-container">
+													<h2 class="elementor-heading-title elementor-size-default">Why Trade
+														with My Program?</h2>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-8e77858 mas-addons-sticky-no elementor-widget elementor-widget-text-editor"
+												data-id="8e77858" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="text-editor.default">
+												<div class="elementor-widget-container">
+													<p> </p>
+													<p>The internet is full of blogs and websites offering tips and
+														techniques for crypto trading, so why choose my service? I
+														provide you with an abundant variety of trading options for an
+														exquisite trading experience, good strategies that will assist
+														you as you trade, and excellent customer service with quick
+														replies to any query. I aim to improve my service and build a
+														new and evolving platform to suit your every demand. Earning
+														your trust is always the first thing on my mind, so I place the
+														success of teamwork over personal ambition. I have built a great
+														team with this in mind, and I am ready to deliver outstanding
+														service to help you achieve your financial goals.</p>
+													<p> </p>
+													<p>My team consists of skilled traders who will provide strategies
+														to direct you to make the best trading decisions. We work
+														thoughtfully and consciously, so your profit is guaranteed with
+														my service.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-acd000a"
+										data-id="acd000a" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-e31fd49 mas-addons-sticky-no elementor-widget elementor-widget-image"
+												data-id="e31fd49" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img loading="lazy" loading="lazy" decoding="async" width="636"
+														height="400" src="wp-content/uploads/2023/03/blog4.png"
+														class="attachment-large size-large wp-image-16887" alt=""
+														srcset="wp-content/uploads/2023/03/blog4.png 636w, wp-content/uploads/2023/03/blog4-300x189.png 300w"
+														sizes="(max-width: 636px) 100vw, 636px" />
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+							<section
+								class="elementor-section elementor-inner-section elementor-element elementor-element-6e25863 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+								data-id="6e25863" data-element_type="section"
+								data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+								<div class="elementor-container elementor-column-gap-default">
+									<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c6841cb"
+										data-id="c6841cb" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-6c9ea78 mas-addons-sticky-no elementor-widget elementor-widget-heading"
+												data-id="6c9ea78" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="heading.default">
+												<div class="elementor-widget-container">
+													<h2 class="elementor-heading-title elementor-size-default">Return On
+														Investment (ROI)</h2>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-bccaee2 mas-addons-sticky-no elementor-widget elementor-widget-text-editor"
+												data-id="bccaee2" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="text-editor.default">
+												<div class="elementor-widget-container">
+													<p>I offer a percentage profit-sharing model to ensure that my
+														interests are aligned my interests with those of my clients, as
+														I only make money when you make money. I believe that this model
+														is a fair and transparent way to ensure that clients feel
+														confident in my services.</p>
+													<p> </p>
+													<p>With the required startup trading amount we will be able to work
+														your way up between 170% – 290% ROI in 7 – 14 Trading Days after
+														which you would pay mentorship fee of 10% on the accumulative
+														profits made within this period of trading. The best part of my
+														services is that I don’t need access to your trading account.
+														Deposits, trading and withdrawal will be strictly handled by
+														you. I have engaged in a detailed and deep research of trading
+														platforms and we have seen number of reviews from many
+														platforms. This has helped us pick the best platform for our
+														clients.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4a8bfd3"
+										data-id="4a8bfd3" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-ad6210b zuzu-box-rotate mas-addons-sticky-no elementor-widget elementor-widget-image"
+												data-id="ad6210b" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img loading="lazy" loading="lazy" decoding="async" width="517"
+														height="501" src="wp-content/uploads/2023/02/user.png"
+														class="attachment-large size-large wp-image-14851" alt=""
+														srcset="wp-content/uploads/2023/02/user.png 517w, wp-content/uploads/2023/02/user-300x291.png 300w"
+														sizes="(max-width: 517px) 100vw, 517px" />
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section
+				class="elementor-section elementor-top-section elementor-element elementor-element-471b1fa elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+				data-id="471b1fa" data-element_type="section"
+				data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+				<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-97db615"
+						data-id="97db615" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+							<section
+								class="elementor-section elementor-inner-section elementor-element elementor-element-d384c80 elementor-section-content-space-between elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+								data-id="d384c80" data-element_type="section"
+								data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+								<div class="elementor-container elementor-column-gap-default">
+									<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-931d4ba"
+										data-id="931d4ba" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-65902c7 mas-addons-sticky-no elementor-widget elementor-widget-heading"
+												data-id="65902c7" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="heading.default">
+												<div class="elementor-widget-container">
+													<h2 class="elementor-heading-title elementor-size-default">My
+														Services</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+							<section
+								class="elementor-section elementor-inner-section elementor-element elementor-element-16e6324 elementor-section-content-space-between elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+								data-id="16e6324" data-element_type="section"
+								data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+								<div class="elementor-container elementor-column-gap-default">
+									<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-826657d"
+										data-id="826657d" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-db7ee34 mas-addons-sticky-no elementor-widget elementor-widget-mas-addons-icon-box"
+												data-id="db7ee34" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="mas-addons-icon-box.default">
+												<div class="elementor-widget-container">
+													<!-- box link  -->
+													<!-- box link  -->
+													<div
+														class="mas-addons-feature-box-item mas-addons-feature-icon-left mas-addons-icon-position-left">
+
+														<div
+															class="mas-addons-feature-icon-wrap icon-background-yes align-items-top">
+															<span class="mas-addons-feature-icon icon-type-icon">
+																<svg aria-hidden="true"
+																	class="e-font-icon-svg e-far-comments"
+																	viewBox="0 0 576 512"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M532 386.2c27.5-27.1 44-61.1 44-98.2 0-80-76.5-146.1-176.2-157.9C368.3 72.5 294.3 32 208 32 93.1 32 0 103.6 0 192c0 37 16.5 71 44 98.2-15.3 30.7-37.3 54.5-37.7 54.9-6.3 6.7-8.1 16.5-4.4 25 3.6 8.5 12 14 21.2 14 53.5 0 96.7-20.2 125.2-38.8 9.2 2.1 18.7 3.7 28.4 4.9C208.1 407.6 281.8 448 368 448c20.8 0 40.8-2.4 59.8-6.8C456.3 459.7 499.4 480 553 480c9.2 0 17.5-5.5 21.2-14 3.6-8.5 1.9-18.3-4.4-25-.4-.3-22.5-24.1-37.8-54.8zm-392.8-92.3L122.1 305c-14.1 9.1-28.5 16.3-43.1 21.4 2.7-4.7 5.4-9.7 8-14.8l15.5-31.1L77.7 256C64.2 242.6 48 220.7 48 192c0-60.7 73.3-112 160-112s160 51.3 160 112-73.3 112-160 112c-16.5 0-33-1.9-49-5.6l-19.8-4.5zM498.3 352l-24.7 24.4 15.5 31.1c2.6 5.1 5.3 10.1 8 14.8-14.6-5.1-29-12.3-43.1-21.4l-17.1-11.1-19.9 4.6c-16 3.7-32.5 5.6-49 5.6-54 0-102.2-20.1-131.3-49.7C338 339.5 416 272.9 416 192c0-3.4-.4-6.7-.7-10C479.7 196.5 528 238.8 528 288c0 28.7-16.2 50.6-29.7 64z">
+																	</path>
+																</svg> </span>
+														</div>
+
+														<div class="mas-addons-feature-content-wrap">
+															<div class="mas-addons-feature-content">
+																<h4 class="mas-addons-feature-title">Personalized <br>
+																	Consultation</h4>
+
+																<p>Whether you're a beginner or a seasoned investor,
+																	Linda provides tailored advice to meet your specific
+																	needs. Discover the best strategies for your
+																	investment portfolio, understand market trends, and
+																	learn how to make informed decisions.</p>
+
+
+															</div>
+														</div>
+
+													</div>
+													<!-- box link  -->
+													<!-- box link  -->
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3e94304 elementor-hidden-tablet elementor-hidden-mobile"
+										data-id="3e94304" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-d8ab411 elementor-hidden-tablet mas-addons-sticky-no elementor-widget elementor-widget-mas-addons-icon-box"
+												data-id="d8ab411" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="mas-addons-icon-box.default">
+												<div class="elementor-widget-container">
+													<!-- box link  -->
+													<!-- box link  -->
+													<div
+														class="mas-addons-feature-box-item mas-addons-feature-icon-left mas-addons-icon-position-left">
+
+														<div
+															class="mas-addons-feature-icon-wrap icon-background-yes align-items-center">
+															<span class="mas-addons-feature-icon icon-type-icon">
+																<svg aria-hidden="true"
+																	class="e-font-icon-svg e-far-clipboard"
+																	viewBox="0 0 384 512"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M336 64h-80c0-35.3-28.7-64-64-64s-64 28.7-64 64H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM192 40c13.3 0 24 10.7 24 24s-10.7 24-24 24-24-10.7-24-24 10.7-24 24-24zm144 418c0 3.3-2.7 6-6 6H54c-3.3 0-6-2.7-6-6V118c0-3.3 2.7-6 6-6h42v36c0 6.6 5.4 12 12 12h168c6.6 0 12-5.4 12-12v-36h42c3.3 0 6 2.7 6 6z">
+																	</path>
+																</svg> </span>
+														</div>
+
+														<div class="mas-addons-feature-content-wrap">
+															<div class="mas-addons-feature-content">
+																<h4 class="mas-addons-feature-title">Portfolio <br>
+																	Management</h4>
+
+																<p>Let Linda take the reins! My portfolio management
+																	services focus on maximizing your returns while
+																	minimizing risk. Enjoy peace of mind knowing that
+																	your investments are in expert hands.</p>
+
+
+															</div>
+														</div>
+
+													</div>
+													<!-- box link  -->
+													<!-- box link  -->
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-153a9bc"
+										data-id="153a9bc" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-2a9cbea mas-addons-sticky-no elementor-widget elementor-widget-mas-addons-icon-box"
+												data-id="2a9cbea" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="mas-addons-icon-box.default">
+												<div class="elementor-widget-container">
+													<!-- box link  -->
+													<!-- box link  -->
+													<div
+														class="mas-addons-feature-box-item mas-addons-feature-icon-left mas-addons-icon-position-left">
+
+														<div
+															class="mas-addons-feature-icon-wrap icon-background-yes align-items-top">
+															<span class="mas-addons-feature-icon icon-type-icon">
+																<svg xmlns="http://www.w3.org/2000/svg" width="35"
+																	height="35" viewBox="0 0 35 35" fill="none">
+																	<path
+																		d="M12.0933 9.95423H9.86315C9.32649 9.95423 8.88981 9.51707 8.88981 8.97978C8.88981 8.44065 9.3258 8.00534 9.86302 8.00534C9.86803 8.00534 9.87297 8.00541 9.87798 8.00541H12.0136C12.3971 8.00926 12.7763 8.18151 13.0545 8.47853C13.4432 8.89345 14.0946 8.91459 14.5095 8.52602C14.9244 8.13731 14.9457 7.4859 14.557 7.07098C13.8942 6.36343 12.9716 5.95366 12.0256 5.94659C12.023 5.94659 12.0205 5.94659 12.0179 5.94659H12.0077V5.03185C12.0077 4.46334 11.5468 4.00244 10.9783 4.00244C10.4098 4.00244 9.94887 4.46334 9.94887 5.03185V5.94652C8.08049 5.94652 6.83105 7.37994 6.83105 8.97972C6.83105 10.6522 8.19125 12.013 9.86322 12.013H12.0934C12.6301 12.013 13.0668 12.4501 13.0668 12.9874C13.0668 13.5266 12.6308 13.9618 12.0936 13.9618C12.0886 13.9618 12.0836 13.9617 12.0787 13.9617H9.74854C9.47767 13.959 9.19005 13.8613 8.93826 13.6865C8.47118 13.3621 7.82979 13.4779 7.50559 13.945C7.1814 14.4121 7.2971 15.0535 7.76418 15.3776C8.50563 15.8924 9.17345 16.0205 9.94894 16.0205V16.9352C9.94894 17.5037 10.4098 17.9646 10.9783 17.9646C11.5469 17.9646 12.0078 17.5037 12.0078 16.9352V16.0205C13.8896 16.0205 15.1256 14.5747 15.1256 12.9874C15.1255 11.3149 13.7653 9.95423 12.0933 9.95423Z"
+																		fill="white"></path>
+																	<path
+																		d="M21.7172 13.2767C23.1751 6.41125 17.9159 0 10.9785 0C4.92491 0 0 4.92738 0 10.9839C0 17.9251 6.41337 23.1955 13.2842 21.7248C11.8273 28.5658 17.064 35 24.0216 35C30.0751 35 35 30.0727 35 24.0162C35 17.0769 28.5872 11.8026 21.7172 13.2767ZM2.05882 10.9839C2.05882 6.06262 6.06015 2.05882 10.9785 2.05882C17.1705 2.05882 21.5006 8.26213 19.347 14.0795C17.0394 15.1704 15.1706 17.0427 14.0832 19.3531C8.27125 21.5165 2.05882 17.1892 2.05882 10.9839ZM24.0216 32.9412C19.1033 32.9412 15.102 28.9375 15.102 24.0162C15.102 19.095 19.1033 15.0912 24.0216 15.0912C28.9399 15.0912 32.9412 19.095 32.9412 24.0162C32.9412 28.9375 28.9399 32.9412 24.0216 32.9412Z"
+																		fill="white"></path>
+																	<path
+																		d="M27.5344 27.6258C26.0973 27.1697 24.5955 27.0247 23.1154 27.1927C23.324 26.5528 23.471 25.896 23.5556 25.2294H24.7892C25.3577 25.2294 25.8186 24.7685 25.8186 24.2C25.8186 23.6314 25.3577 23.1705 24.7892 23.1705H23.6172C23.5959 22.845 23.5828 22.7522 23.4957 21.957C23.3513 20.6392 24.9871 19.9344 25.8531 20.9111C26.2302 21.3364 26.8808 21.3757 27.3063 20.9984C27.7316 20.6212 27.7708 19.9706 27.3936 19.5452C25.2089 17.0809 21.0855 18.8676 21.4492 22.1814C21.542 23.0286 21.5351 22.9527 21.5526 23.1705H20.8204C20.2519 23.1705 19.791 23.6314 19.791 24.1999C19.791 24.7684 20.2519 25.2293 20.8204 25.2293H21.4755C21.3172 26.2313 20.9831 27.2021 20.4796 28.1058C20.0348 28.9039 20.7781 29.8459 21.6578 29.5978C23.4009 29.1071 25.0263 28.9895 26.9115 29.588C27.4525 29.7599 28.0319 29.461 28.2042 28.9184C28.376 28.3766 28.0762 27.7979 27.5344 27.6258Z"
+																		fill="white"></path>
+																	<path
+																		d="M25.5637 3.23753C27.5809 3.23753 29.7247 4.76072 29.7247 7.58357V8.55287L28.7977 7.6253C28.3958 7.22314 27.744 7.22314 27.3419 7.62489C26.9398 8.02677 26.9396 8.67859 27.3415 9.08068L30.026 11.7668C30.4242 12.1655 31.078 12.1713 31.4822 11.7668L34.1668 9.08068C34.5687 8.67859 34.5685 8.02684 34.1664 7.62489C33.7643 7.22294 33.1125 7.22314 32.7106 7.6253L31.7834 8.55294V7.58357C31.7834 3.83851 28.9383 1.17871 25.5636 1.17871C24.9951 1.17871 24.5342 1.63961 24.5342 2.20812C24.5342 2.77663 24.9952 3.23753 25.5637 3.23753Z"
+																		fill="white"></path>
+																	<path
+																		d="M9.43674 31.7629C7.41958 31.7629 5.27572 30.2398 5.27572 27.4169V26.4475L6.20288 27.3752C6.60469 27.7772 7.25638 27.7776 7.65867 27.3756C8.06083 26.9737 8.06097 26.3219 7.65908 25.9198L4.97445 23.2336C4.5762 22.8346 3.92108 22.83 3.51831 23.2336L0.833535 25.9199C0.431653 26.3219 0.43179 26.9737 0.833947 27.3757C1.23597 27.7775 1.88779 27.7774 2.28974 27.3752L3.2169 26.4476V27.4169C3.2169 31.162 6.06199 33.8218 9.43674 33.8218C10.0053 33.8218 10.4662 33.3609 10.4662 32.7924C10.4662 32.2238 10.0053 31.7629 9.43674 31.7629Z"
+																		fill="white"></path>
+																</svg> </span>
+														</div>
+
+														<div class="mas-addons-feature-content-wrap">
+															<div class="mas-addons-feature-content">
+																<h4 class="mas-addons-feature-title">Business <br>
+																	Solutions</h4>
+
+																<p>Thinking about integrating cryptocurrency into your
+																	business model? Linda provides consulting on
+																	blockchain implementation, crypto payment solutions,
+																	and smart contract development to help your business
+																	thrive in the digital age.</p>
+
+
+															</div>
+														</div>
+
+													</div>
+													<!-- box link  -->
+													<!-- box link  -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+							<section
+								class="elementor-section elementor-inner-section elementor-element elementor-element-59a76f6 elementor-section-content-space-between elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+								data-id="59a76f6" data-element_type="section"
+								data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+								<div class="elementor-container elementor-column-gap-default">
+									<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-955ad3d"
+										data-id="955ad3d" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-cdabb00 mas-addons-sticky-no elementor-widget elementor-widget-mas-addons-icon-box"
+												data-id="cdabb00" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="mas-addons-icon-box.default">
+												<div class="elementor-widget-container">
+													<!-- box link  -->
+													<!-- box link  -->
+													<div
+														class="mas-addons-feature-box-item mas-addons-feature-icon-left mas-addons-icon-position-left">
+
+														<div
+															class="mas-addons-feature-icon-wrap icon-background-yes align-items-top">
+															<span class="mas-addons-feature-icon icon-type-icon">
+																<svg aria-hidden="true"
+																	class="e-font-icon-svg e-far-chart-bar"
+																	viewBox="0 0 512 512"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M396.8 352h22.4c6.4 0 12.8-6.4 12.8-12.8V108.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v230.4c0 6.4 6.4 12.8 12.8 12.8zm-192 0h22.4c6.4 0 12.8-6.4 12.8-12.8V140.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v198.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h22.4c6.4 0 12.8-6.4 12.8-12.8V204.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v134.4c0 6.4 6.4 12.8 12.8 12.8zM496 400H48V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16zm-387.2-48h22.4c6.4 0 12.8-6.4 12.8-12.8v-70.4c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v70.4c0 6.4 6.4 12.8 12.8 12.8z">
+																	</path>
+																</svg> </span>
+														</div>
+
+														<div class="mas-addons-feature-content-wrap">
+															<div class="mas-addons-feature-content">
+																<h4 class="mas-addons-feature-title">Market Analysis &
+																	<br> Insights</h4>
+
+																<p>Stay ahead of the curve with our in-depth market
+																	analysis. Linda delivers timely insights and
+																	forecasts that keep you informed about the
+																	ever-evolving cryptocurrency landscape.</p>
+
+
+															</div>
+														</div>
+
+													</div>
+													<!-- box link  -->
+													<!-- box link  -->
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-dbc71f0 elementor-hidden-tablet elementor-hidden-mobile"
+										data-id="dbc71f0" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-50dc7c8 elementor-hidden-tablet mas-addons-sticky-no elementor-widget elementor-widget-mas-addons-icon-box"
+												data-id="50dc7c8" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="mas-addons-icon-box.default">
+												<div class="elementor-widget-container">
+													<!-- box link  -->
+													<!-- box link  -->
+													<div
+														class="mas-addons-feature-box-item mas-addons-feature-icon-left mas-addons-icon-position-left">
+
+														<div
+															class="mas-addons-feature-icon-wrap icon-background-yes align-items-center">
+															<span class="mas-addons-feature-icon icon-type-icon">
+																<svg xmlns="http://www.w3.org/2000/svg" width="34"
+																	height="37" viewBox="0 0 34 37" fill="none">
+																	<path
+																		d="M0.875 14.8651C0.875 15.2991 1.22646 15.6506 1.66052 15.6506C2.09467 15.6506 2.44566 15.299 2.44566 14.8651C2.44566 11.6583 5.05444 9.04956 8.26156 9.04956H9.30638C9.74053 9.04956 10.0915 8.698 10.0915 8.26404C10.0915 7.83007 9.74053 7.47852 9.30638 7.47852H8.26156C4.18822 7.47852 0.875 10.7917 0.875 14.8651Z"
+																		fill="white" stroke="white" stroke-width="0.25">
+																	</path>
+																	<path
+																		d="M24.4978 11.4392L24.4977 11.4393C24.362 11.8514 23.9172 12.0751 23.5061 11.9403L23.5059 11.9402C23.0941 11.8045 22.8706 11.3605 23.0053 10.9487L23.0053 10.9485C23.2192 10.2977 23.3278 9.61669 23.3278 8.92473C23.3278 5.35258 20.4213 2.44566 16.8492 2.44566C13.277 2.44566 10.3705 5.35258 10.3705 8.92473C10.3705 9.66635 10.4947 10.3925 10.7385 11.0845L24.4978 11.4392ZM24.4978 11.4392C24.7638 10.6296 24.8989 9.78396 24.8989 8.92473C24.8989 4.48561 21.2883 0.875 16.8492 0.875C12.4104 0.875 8.7998 4.48561 8.7998 8.92473C8.7998 9.84449 8.95369 10.7473 9.25811 11.6076L24.4978 11.4392Z"
+																		fill="white" stroke="white" stroke-width="0.25">
+																	</path>
+																	<path
+																		d="M16.0645 5.62241C16.0645 6.05637 16.4154 6.40793 16.8496 6.40793C17.2837 6.40793 17.6351 6.05647 17.6351 5.62241V4.30174C17.6351 3.86759 17.2836 3.5166 16.8496 3.5166C16.4155 3.5166 16.0645 3.86768 16.0645 4.30174V5.62241Z"
+																		fill="white" stroke="white" stroke-width="0.25">
+																	</path>
+																	<path
+																		d="M4.51836 36.1252H29.8399C31.849 36.1252 33.4837 34.4909 33.4833 32.4815V14.4245C33.4833 12.4155 31.849 10.7808 29.8399 10.7808H4.51836C2.5097 10.7808 0.875 12.4155 0.875 14.4245V32.4819C0.875 34.4909 2.50972 36.1252 4.51836 36.1252ZM2.44566 14.4245C2.44566 13.2817 3.37593 12.3518 4.51836 12.3518H29.8399C30.9824 12.3518 31.9126 13.2817 31.9126 14.4245V32.4819C31.9126 33.6243 30.9827 34.5546 29.8399 34.5546H4.51836C3.37596 34.5546 2.44566 33.6243 2.44566 32.4815V14.4245Z"
+																		fill="white" stroke="white" stroke-width="0.25">
+																	</path>
+																	<path
+																		d="M25.1038 28.8607H32.6982C33.1322 28.8607 33.4838 28.5098 33.4838 28.0756V20.8114C33.4838 20.3773 33.1323 20.0259 32.6982 20.0259H25.1038C22.6681 20.0259 20.6865 22.0075 20.6865 24.4435C20.6865 26.8791 22.6681 28.8607 25.1038 28.8607ZM22.2572 24.4435C22.2572 22.8737 23.5344 21.5965 25.1038 21.5965H31.9131V27.2901H25.1038C23.5344 27.2901 22.2572 26.0129 22.2572 24.4435Z"
+																		fill="white" stroke="white" stroke-width="0.25">
+																	</path>
+																	<path
+																		d="M22.668 24.4438C22.668 25.787 23.7608 26.8798 25.104 26.8798C26.4476 26.8798 27.5405 25.787 27.5405 24.4438C27.5405 23.1002 26.4476 22.0073 25.104 22.0073C23.7608 22.0073 22.668 23.1002 22.668 24.4438ZM24.2386 24.4438C24.2386 23.9664 24.6271 23.578 25.104 23.578C25.5814 23.578 25.9698 23.9664 25.9698 24.4438C25.9698 24.9207 25.5814 25.3092 25.104 25.3092C24.627 25.3092 24.2386 24.9208 24.2386 24.4438Z"
+																		fill="white" stroke="white" stroke-width="0.25">
+																	</path>
+																	<path
+																		d="M2.98118 15.4032H1.66052C1.36453 15.4032 1.125 15.1637 1.125 14.8677C1.125 14.5718 1.36444 14.3325 1.66052 14.3325H2.98118C3.27726 14.3325 3.5167 14.5718 3.5167 14.8677C3.5167 15.1637 3.27717 15.4032 2.98118 15.4032Z"
+																		fill="white" stroke="white" stroke-width="0.25">
+																	</path>
+																	<path
+																		d="M28.7959 15.4032H26.2143C25.9183 15.4032 25.6788 15.1637 25.6788 14.8677C25.6788 14.5718 25.9182 14.3325 26.2143 14.3325H28.7959C29.092 14.3325 29.3315 14.5718 29.3315 14.8677C29.3315 15.1636 29.0919 15.4032 28.7959 15.4032ZM23.6331 15.4032H21.0515C20.7555 15.4032 20.5159 15.1637 20.5159 14.8677C20.5159 14.5718 20.7554 14.3325 21.0515 14.3325H23.6331C23.9291 14.3325 24.1682 14.5717 24.1682 14.8677C24.1682 15.1637 23.929 15.4032 23.6331 15.4032ZM18.4706 15.4032H15.889C15.593 15.4032 15.3534 15.1637 15.3534 14.8677C15.3534 14.5718 15.5929 14.3325 15.889 14.3325H18.4706C18.7666 14.3325 19.0057 14.5717 19.0057 14.8677C19.0057 15.1637 18.7665 15.4032 18.4706 15.4032ZM13.3073 15.4032H10.7257C10.4298 15.4032 10.1906 15.1637 10.1906 14.8677C10.1906 14.5717 10.4297 14.3325 10.7257 14.3325H13.3073C13.6034 14.3325 13.8429 14.5718 13.8429 14.8677C13.8429 15.1637 13.6033 15.4032 13.3073 15.4032ZM8.14411 15.4032H5.56286C5.26688 15.4032 5.02734 15.1637 5.02734 14.8677C5.02734 14.5718 5.26678 14.3325 5.56286 14.3325H8.14448C8.44047 14.3325 8.67963 14.5717 8.67963 14.8677C8.67963 15.1637 8.4401 15.4032 8.14411 15.4032Z"
+																		fill="white" stroke="white" stroke-width="0.25">
+																	</path>
+																	<path
+																		d="M32.698 15.4032H31.3773C31.0813 15.4032 30.8418 15.1637 30.8418 14.8677C30.8418 14.5718 31.0812 14.3325 31.3773 14.3325H32.698C32.9941 14.3325 33.2335 14.5718 33.2335 14.8677C33.2335 15.1637 32.994 15.4032 32.698 15.4032Z"
+																		fill="white" stroke="white" stroke-width="0.25">
+																	</path>
+																	<path
+																		d="M18.8822 11.4411C19.0246 11.2423 19.0988 10.9945 19.0988 10.7144C19.0988 10.3627 18.982 10.056 18.7508 9.83788C18.5203 9.62034 18.1895 9.50338 17.7846 9.50338H16.1446C16.1023 9.50338 16.0477 9.51417 16.0045 9.55733C15.9614 9.60048 15.9505 9.65514 15.9505 9.69791V11.4411H14.8379V5.28467H17.7498C18.5619 5.28467 19.1398 5.48762 19.5136 5.82545C19.8856 6.16166 20.0727 6.64711 20.0727 7.25005C20.0727 8.09132 19.6844 8.55736 19.2269 8.8021L19.1609 8.83742V8.91231V8.93574V9.02181L19.2413 9.05251C19.6761 9.21857 20.2114 9.79449 20.2114 10.7027C20.2114 10.9781 20.1722 11.22 20.1081 11.4411H18.8822ZM16.1446 6.23554C16.1017 6.23554 16.0474 6.24669 16.0045 6.28959C15.9616 6.33248 15.9505 6.38679 15.9505 6.4297V8.35835C15.9505 8.40126 15.9616 8.45557 16.0045 8.49846C16.0474 8.54135 16.1017 8.5525 16.1446 8.5525H17.7155C18.0867 8.5525 18.3995 8.44089 18.6206 8.23479C18.8425 8.02797 18.9609 7.73644 18.9609 7.40007C18.9609 7.05868 18.843 6.76412 18.621 6.55543C18.3998 6.3474 18.0867 6.23554 17.7155 6.23554H16.1446Z"
+																		fill="white" stroke="white" stroke-width="0.25">
+																	</path>
+																</svg> </span>
+														</div>
+
+														<div class="mas-addons-feature-content-wrap">
+															<div class="mas-addons-feature-content">
+																<h4 class="mas-addons-feature-title">Risk <br>
+																	Management</h4>
+
+																<p>I can help you develop a risk management plan to
+																	minimize cryptocurrency losses. This plan may
+																	include stop-loss orders, which automatically sell a
+																	coin or token when it reaches a certain price,
+																	position sizing, which allocates a specific amount
+																	of money to a trade or investment, diversification,
+																	which spreads investments across a range of coins
+																	and tokens, and considering the risk-reward ratio.
+																</p>
+
+
+															</div>
+														</div>
+
+													</div>
+													<!-- box link  -->
+													<!-- box link  -->
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-11b6653"
+										data-id="11b6653" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-68a72c5 mas-addons-sticky-no elementor-widget elementor-widget-mas-addons-icon-box"
+												data-id="68a72c5" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="mas-addons-icon-box.default">
+												<div class="elementor-widget-container">
+													<!-- box link  -->
+													<!-- box link  -->
+													<div
+														class="mas-addons-feature-box-item mas-addons-feature-icon-left mas-addons-icon-position-left">
+
+														<div
+															class="mas-addons-feature-icon-wrap icon-background-yes align-items-top">
+															<span class="mas-addons-feature-icon icon-type-icon">
+																<svg aria-hidden="true"
+																	class="e-font-icon-svg e-far-edit"
+																	viewBox="0 0 576 512"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z">
+																	</path>
+																</svg> </span>
+														</div>
+
+														<div class="mas-addons-feature-content-wrap">
+															<div class="mas-addons-feature-content">
+																<h4 class="mas-addons-feature-title">Research </h4>
+
+																<p>I believe that conducting thorough research upfront
+																	is a crucial aspect of successful trading. That's
+																	why it's important keep up to date with the latest
+																	trends and news in the cryptocurrency market. Using
+																	tools like chart patterns, indicators, and moving
+																	averages to analyze the past performance of various
+																	cryptocurrencies and make predictions about their
+																	future price movements to help us make informed
+																	trades.</p>
+
+
+															</div>
+														</div>
+
+													</div>
+													<!-- box link  -->
+													<!-- box link  -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+							<section
+								class="elementor-section elementor-inner-section elementor-element elementor-element-294f4e2 elementor-section-content-space-between elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+								data-id="294f4e2" data-element_type="section"
+								data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+								<div class="elementor-container elementor-column-gap-default">
+									<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-4514adb"
+										data-id="4514adb" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-f088eca mas-addons-sticky-no elementor-widget elementor-widget-image"
+												data-id="f088eca" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img loading="lazy" loading="lazy" decoding="async" width="1296"
+														height="804" src="wp-content/uploads/2023/01/card-deshbord.png"
+														class="attachment-full size-full wp-image-2947" alt=""
+														srcset="wp-content/uploads/2023/01/card-deshbord.png 1296w, wp-content/uploads/2023/01/card-deshbord-300x186.png 300w, wp-content/uploads/2023/01/card-deshbord-1024x635.png 1024w, wp-content/uploads/2023/01/card-deshbord-768x476.png 768w"
+														sizes="(max-width: 1296px) 100vw, 1296px" />
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section
+				class="elementor-section elementor-top-section elementor-element elementor-element-9e9ec5e elementor-section-full_width elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+				data-id="9e9ec5e" data-element_type="section"
+				data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+				<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-93bbc1b"
+						data-id="93bbc1b" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+							<section
+								class="elementor-section elementor-inner-section elementor-element elementor-element-89f5468 elementor-section-content-space-between elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+								data-id="89f5468" data-element_type="section"
+								data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+								<div class="elementor-container elementor-column-gap-default">
+									<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-6220f50"
+										data-id="6220f50" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-0d3f55c mas-addons-sticky-no elementor-widget elementor-widget-heading"
+												data-id="0d3f55c" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="heading.default">
+												<div class="elementor-widget-container">
+													<h2 class="elementor-heading-title elementor-size-default">Crypto
+														Signals for Beginners</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+							<section
+								class="elementor-section elementor-inner-section elementor-element elementor-element-430da6c elementor-section-content-space-between elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+								data-id="430da6c" data-element_type="section"
+								data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+								<div class="elementor-container elementor-column-gap-default">
+									<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-24d2dc0"
+										data-id="24d2dc0" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-2572588 mas-addons-sticky-no elementor-widget elementor-widget-mas-addons-icon-box"
+												data-id="2572588" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="mas-addons-icon-box.default">
+												<div class="elementor-widget-container">
+													<!-- box link  -->
+													<!-- box link  -->
+													<div
+														class="mas-addons-feature-box-item mas-addons-feature-icon-left mas-addons-icon-position-left">
+
+														<div
+															class="mas-addons-feature-icon-wrap icon-background-yes align-items-top">
+															<span class="mas-addons-feature-icon icon-type-icon">
+																<svg aria-hidden="true"
+																	class="e-font-icon-svg e-far-chart-bar"
+																	viewBox="0 0 512 512"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M396.8 352h22.4c6.4 0 12.8-6.4 12.8-12.8V108.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v230.4c0 6.4 6.4 12.8 12.8 12.8zm-192 0h22.4c6.4 0 12.8-6.4 12.8-12.8V140.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v198.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h22.4c6.4 0 12.8-6.4 12.8-12.8V204.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v134.4c0 6.4 6.4 12.8 12.8 12.8zM496 400H48V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16zm-387.2-48h22.4c6.4 0 12.8-6.4 12.8-12.8v-70.4c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v70.4c0 6.4 6.4 12.8 12.8 12.8z">
+																	</path>
+																</svg> </span>
+														</div>
+
+														<div class="mas-addons-feature-content-wrap">
+															<div class="mas-addons-feature-content">
+																<h4 class="mas-addons-feature-title">Understand the <br>
+																	Market</h4>
+
+																<p>Are you looking to trade cryptocurrencies like
+																	Bitcoin, Ethereum, and Ripple – but have little to
+																	no understanding of how this marketplace works? If
+																	so, you should know that seasoned traders have spent
+																	years learning the craft of technical analysis. This
+																	means performing advanced research on cryptocurrency
+																	pricing trends through a wide variety of indicators.
+																	Think along the lines of the RSI, MACD, Moving
+																	Averages, and more.</p>
+
+
+															</div>
+														</div>
+
+													</div>
+													<!-- box link  -->
+													<!-- box link  -->
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-96df772 elementor-hidden-tablet elementor-hidden-mobile"
+										data-id="96df772" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-91ebac4 elementor-hidden-tablet mas-addons-sticky-no elementor-widget elementor-widget-mas-addons-icon-box"
+												data-id="91ebac4" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="mas-addons-icon-box.default">
+												<div class="elementor-widget-container">
+													<!-- box link  -->
+													<!-- box link  -->
+													<div
+														class="mas-addons-feature-box-item mas-addons-feature-icon-left mas-addons-icon-position-left">
+
+														<div
+															class="mas-addons-feature-icon-wrap icon-background-yes align-items-center">
+															<span class="mas-addons-feature-icon icon-type-icon">
+																<svg aria-hidden="true"
+																	class="e-font-icon-svg e-fas-user"
+																	viewBox="0 0 448 512"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z">
+																	</path>
+																</svg> </span>
+														</div>
+
+														<div class="mas-addons-feature-content-wrap">
+															<div class="mas-addons-feature-content">
+																<h4 class="mas-addons-feature-title">Gain Skillset</h4>
+
+																<p>The truth is – if you don’t have the skill set to
+																	perform technical research at an advanced level, you
+																	will struggle to make consistent gains in the crypto
+																	trading industry. Instead, there is every chance
+																	that you will blow through your account balance. In
+																	turn, this allows you to trade the cryptocurrency
+																	markets without needing to put in any of the
+																	legwork. On the other hand, we should also note that
+																	our crypto signals are not only suitable for
+																	newbies. On the contrary, you might simply not have
+																	the time to research the markets. As such, my
+																	service can help traders of all skill sets.</p>
+
+
+															</div>
+														</div>
+
+													</div>
+													<!-- box link  -->
+													<!-- box link  -->
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-91e2712"
+										data-id="91e2712" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-722532e mas-addons-sticky-no elementor-widget elementor-widget-mas-addons-icon-box"
+												data-id="722532e" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="mas-addons-icon-box.default">
+												<div class="elementor-widget-container">
+													<!-- box link  -->
+													<!-- box link  -->
+													<div
+														class="mas-addons-feature-box-item mas-addons-feature-icon-left mas-addons-icon-position-left">
+
+														<div
+															class="mas-addons-feature-icon-wrap icon-background-yes align-items-top">
+															<span class="mas-addons-feature-icon icon-type-icon">
+																<svg aria-hidden="true"
+																	class="e-font-icon-svg e-fab-bitcoin"
+																	viewBox="0 0 512 512"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zm-141.651-35.33c4.937-32.999-20.191-50.739-54.55-62.573l11.146-44.702-27.213-6.781-10.851 43.524c-7.154-1.783-14.502-3.464-21.803-5.13l10.929-43.81-27.198-6.781-11.153 44.686c-5.922-1.349-11.735-2.682-17.377-4.084l.031-.14-37.53-9.37-7.239 29.062s20.191 4.627 19.765 4.913c11.022 2.751 13.014 10.044 12.68 15.825l-12.696 50.925c.76.194 1.744.473 2.829.907-.907-.225-1.876-.473-2.876-.713l-17.796 71.338c-1.349 3.348-4.767 8.37-12.471 6.464.271.395-19.78-4.937-19.78-4.937l-13.51 31.147 35.414 8.827c6.588 1.651 13.045 3.379 19.4 5.006l-11.262 45.213 27.182 6.781 11.153-44.733a1038.209 1038.209 0 0 0 21.687 5.627l-11.115 44.523 27.213 6.781 11.262-45.128c46.404 8.781 81.299 5.239 95.986-36.727 11.836-33.79-.589-53.281-25.004-65.991 17.78-4.098 31.174-15.792 34.747-39.949zm-62.177 87.179c-8.41 33.79-65.308 15.523-83.755 10.943l14.944-59.899c18.446 4.603 77.6 13.717 68.811 48.956zm8.417-87.667c-7.673 30.736-55.031 15.12-70.393 11.292l13.548-54.327c15.363 3.828 64.836 10.973 56.845 43.035z">
+																	</path>
+																</svg> </span>
+														</div>
+
+														<div class="mas-addons-feature-content-wrap">
+															<div class="mas-addons-feature-content">
+																<h4 class="mas-addons-feature-title">Trade with Profit
+																</h4>
+
+																<p>My service teaches you how he combines the advantages
+																	of Value Investing and Momentum Trend methodologies
+																	that help investors score larger margins of profits
+																	in long and shorter-term timeframes. Each crypto
+																	signal will tell you everything you need to know to
+																	trade in a risk-averse manner. That is to say, once
+																	you receive a signal from us – you’ll know which
+																	crypto pair to trade, whether you should go long or
+																	short, and what entry and exit price to target.</p>
+
+
+															</div>
+														</div>
+
+													</div>
+													<!-- box link  -->
+													<!-- box link  -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+							<section
+								class="elementor-section elementor-inner-section elementor-element elementor-element-1146bd4 elementor-section-content-space-between elementor-section-full_width elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+								data-id="1146bd4" data-element_type="section"
+								data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+								<div class="elementor-container elementor-column-gap-no">
+									<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-d6388e2"
+										data-id="d6388e2" data-element_type="column">
+										<div class="elementor-widget-wrap elementor-element-populated">
+											<div class="elementor-element elementor-element-5bd507e mas-addons-sticky-no elementor-widget elementor-widget-Zuzu_Testimonial_Infinite_Slider"
+												data-id="5bd507e" data-element_type="widget"
+												data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+												data-widget_type="Zuzu_Testimonial_Infinite_Slider.default">
+												<div class="elementor-widget-container">
+													<section class="section">
+														<div class="zuzu-testimonial-infinite-slider t-style"
+															data-settings="{&quot;autoplay&quot;:true,&quot;dots&quot;:true}">
+
+															<div class="zuzu-t-infinite-slider-wrap">
+																<div class="zuzu-t-infinite-slider-data">
+																	<h5>Great experience and great cashback</h5>
+																	<p>&quot;Linda&#039;s guidance transformed my
+																		trading experience. With her expert analysis, I
+																		made a 300% profit on my Bitcoin investment! Her
+																		personalized coaching and ongoing support gave
+																		me the confidence to navigate the crypto market.
+																		Linda truly cares about her clients&#039;
+																		success. I&#039;m forever grateful!&quot;
+																	</p>
+																</div>
+																<div class="zuzu-t-infinite-slider-author-wrap">
+																	<div class="zuzu-t-infinite-slider-author">
+																		<img decoding="async"
+																			src="mthemeus/demos/wp/zuzu/wp-content/uploads/2023/03/t_2.png"
+																			alt="">
+																	</div>
+																	<div class="zuzu-t-infinite-slider-author-data">
+																		<h6>Leslie Alexandra</h6>
+																		<span>Head of finance </span>
+																	</div>
+																</div>
+															</div>
+
+
+															<div class="zuzu-t-infinite-slider-wrap">
+																<div class="zuzu-t-infinite-slider-data">
+																	<h5>Best crypto coach I&#039;ve ever used. Love it
+																	</h5>
+																	<p>&quot;I was skeptical about crypto trading, but
+																		Linda&#039;s mentorship changed everything. Her
+																		technical analysis training helped me identify
+																		profitable trades, and I earned a 200% return on
+																		my Ethereum investment! Linda&#039;s passion for
+																		teaching and willingness to share her expertise
+																		are unparalleled. Thank you, Linda!&quot;</p>
+																</div>
+																<div class="zuzu-t-infinite-slider-author-wrap">
+																	<div class="zuzu-t-infinite-slider-author">
+																		<img decoding="async"
+																			src="mthemeus/demos/wp/zuzu/wp-content/uploads/2023/03/t_3.png"
+																			alt="">
+																	</div>
+																	<div class="zuzu-t-infinite-slider-author-data">
+																		<h6>Marcel Gafam</h6>
+																		<span>Lead accountant @ Goldbun LP</span>
+																	</div>
+																</div>
+															</div>
+
+
+															<div class="zuzu-t-infinite-slider-wrap">
+																<div class="zuzu-t-infinite-slider-data">
+																	<h5>Her signals are accurate</h5>
+																	<p>&quot;Linda&#039;s customized trading plan helped
+																		me achieve consistent profits, even in volatile
+																		markets. Her expertise in blockchain technology
+																		and market trends gave me a competitive edge.
+																		I&#039;ve earned a 400% return on my investments
+																		since working with Linda! Her coaching has
+																		changed my financial future. Thank you, Linda,
+																		for believing in me!&quot;</p>
+																</div>
+																<div class="zuzu-t-infinite-slider-author-wrap">
+																	<div class="zuzu-t-infinite-slider-author">
+																		<img decoding="async"
+																			src="wp-content/uploads/2023/01/image-17.png"
+																			alt="">
+																	</div>
+																	<div class="zuzu-t-infinite-slider-author-data">
+																		<h6>Michelle Lynn</h6>
+																		<span>Saleswoman @ Ford</span>
+																	</div>
+																</div>
+															</div>
+
+
+															<div class="zuzu-t-infinite-slider-wrap">
+																<div class="zuzu-t-infinite-slider-data">
+																	<h5>She is patient and willing to see you grow</h5>
+																	<p>&quot;As a beginner, I was overwhelmed by the
+																		crypto market. Linda&#039;s patience and
+																		expertise walked me through every step. With her
+																		guidance, I made a 150% profit on my Litecoin
+																		trade! Her online community and resources are
+																		invaluable. Linda&#039;s coaching has been the
+																		best investment I&#039;ve ever made.&quot;</p>
+																</div>
+																<div class="zuzu-t-infinite-slider-author-wrap">
+																	<div class="zuzu-t-infinite-slider-author">
+																		<img decoding="async"
+																			src="mthemeus/demos/wp/zuzu/wp-content/uploads/2023/03/t_4.png"
+																			alt="">
+																	</div>
+																	<div class="zuzu-t-infinite-slider-author-data">
+																		<h6>Albert Flores</h6>
+																		<span>Investor @ Books Vault</span>
+																	</div>
+																</div>
+															</div>
+
+
+															<div class="zuzu-t-infinite-slider-wrap">
+																<div class="zuzu-t-infinite-slider-data">
+																	<h5>She is as profitable as she claims</h5>
+																	<p>&quot;Linda&#039;s coaching helped me turn a
+																		$5,000 investment into $20,000 in just 6 months!
+																		Her market insights and risk management
+																		strategies saved me from potential losses.
+																		Linda&#039;s dedication to her clients is
+																		remarkable. She genuinely wants to see us
+																		succeed. I highly recommend her services!&quot;
+																	</p>
+																</div>
+																<div class="zuzu-t-infinite-slider-author-wrap">
+																	<div class="zuzu-t-infinite-slider-author">
+																		<img decoding="async"
+																			src="mthemeus/demos/wp/zuzu/wp-content/uploads/2023/01/image-8-1.png"
+																			alt="">
+																	</div>
+																	<div class="zuzu-t-infinite-slider-author-data">
+																		<h6>Jerry Wilson</h6>
+																		<span>Engineer</span>
+																	</div>
+																</div>
+															</div>
+
+														</div>
+													</section>
+
+
+
+
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section
+				class="elementor-section elementor-top-section elementor-element elementor-element-234229c elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+				data-id="234229c" data-element_type="section"
+				data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+				<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a6c2161"
+						data-id="a6c2161" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+							<div class="elementor-element elementor-element-0bce1e4 mas-addons-sticky-no elementor-widget elementor-widget-heading"
+								data-id="0bce1e4" data-element_type="widget"
+								data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+								data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h2 class="elementor-heading-title elementor-size-default">Frequently Asked
+										Questions</h2>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-3125b8a mas-addons-sticky-no elementor-widget elementor-widget-mas-addons-accordion"
+								data-id="3125b8a" data-element_type="widget"
+								data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+								data-widget_type="mas-addons-accordion.default">
+								<div class="elementor-widget-container">
+									<div class="mas-addons-accordion-items">
+										<div
+											class="mas-addons-accordion-single-item yes  elementor-repeater-item-ab5cd21">
+											<div class="mas-addons-accordion-title active-default">
+												<h3 class="mas-addons-accordion-heading">Crypto Pairs</h3>
+												<div class="mas-addons-active-inactive-icon"><span
+														class="mas-addons-active-icon"><svg aria-hidden="true"
+															class="e-font-icon-svg e-fas-angle-up" viewBox="0 0 320 512"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z">
+															</path>
+														</svg></span><span class="mas-addons-inactive-icon"><svg
+															aria-hidden="true" class="e-font-icon-svg e-fas-angle-down"
+															viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z">
+															</path>
+														</svg></span></div>
+											</div>
+											<div class="mas-addons-accordion-content">
+												<div
+													class="mas-addons-accordion-content-wrapper has-image-no image-position-right">
+													<div class="mas-addons-accordion-text">
+														<div>
+															<p>This one is pretty explanatory. After all, it goes
+																without saying that you will need to know which pair our
+																signal relates to. We should note that my team of crypto
+																analyst specialize in a wide range of cryptocurrency
+																markets. Not only does this include crypto-to-fiat, but
+																crypto-to-crypto pairs, too. For those unaware, a
+																crypto-to-fiat pair will contain one digital currency
+																like Bitcoin and one fiat currency like the US dollar.
+																In this example, the pair would be represented as
+																BTC/USD.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="mas-addons-accordion-single-item yes  elementor-repeater-item-7f500a4">
+											<div class="mas-addons-accordion-title active-default">
+												<h3 class="mas-addons-accordion-heading">Long or Short</h3>
+												<div class="mas-addons-active-inactive-icon"><span
+														class="mas-addons-active-icon"><svg aria-hidden="true"
+															class="e-font-icon-svg e-fas-angle-up" viewBox="0 0 320 512"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z">
+															</path>
+														</svg></span><span class="mas-addons-inactive-icon"><svg
+															aria-hidden="true" class="e-font-icon-svg e-fas-angle-down"
+															viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z">
+															</path>
+														</svg></span></div>
+											</div>
+											<div class="mas-addons-accordion-content">
+												<div
+													class="mas-addons-accordion-content-wrapper has-image-no image-position-right">
+													<div class="mas-addons-accordion-text">
+														<div>
+															<p>An additional key metric that is mandatory in the crypto
+																signals space is the direction of the market. In other
+																words, should you go long or short on the trade? Without
+																this information, the crypto signal would be worthless.
+															</p>
+															<p> </p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="mas-addons-accordion-single-item yes  elementor-repeater-item-8f2f2e4">
+											<div class="mas-addons-accordion-title active-default">
+												<h3 class="mas-addons-accordion-heading">Limit Order Price</h3>
+												<div class="mas-addons-active-inactive-icon"><span
+														class="mas-addons-active-icon"><svg aria-hidden="true"
+															class="e-font-icon-svg e-fas-angle-up" viewBox="0 0 320 512"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z">
+															</path>
+														</svg></span><span class="mas-addons-inactive-icon"><svg
+															aria-hidden="true" class="e-font-icon-svg e-fas-angle-down"
+															viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z">
+															</path>
+														</svg></span></div>
+											</div>
+											<div class="mas-addons-accordion-content">
+												<div
+													class="mas-addons-accordion-content-wrapper has-image-no image-position-right">
+													<div class="mas-addons-accordion-text">
+														<div>
+															<p>Make no mistake about it – the best crypto signals will
+																always come with the required limit order price. If you
+																are new to trading, you generally have two options when
+																it comes to entering the market. By default, most online
+																brokers ask you if you want to place a ‘market order’.
+																This simply means that the broker will execute your
+																trade instantly – at the next available price.</p>
+															<p> </p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="mas-addons-accordion-single-item yes  elementor-repeater-item-6c3b133">
+											<div class="mas-addons-accordion-title active-default">
+												<h3 class="mas-addons-accordion-heading">Stop Loss Order Price</h3>
+												<div class="mas-addons-active-inactive-icon"><span
+														class="mas-addons-active-icon"><svg aria-hidden="true"
+															class="e-font-icon-svg e-fas-angle-up" viewBox="0 0 320 512"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z">
+															</path>
+														</svg></span><span class="mas-addons-inactive-icon"><svg
+															aria-hidden="true" class="e-font-icon-svg e-fas-angle-down"
+															viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z">
+															</path>
+														</svg></span></div>
+											</div>
+											<div class="mas-addons-accordion-content">
+												<div
+													class="mas-addons-accordion-content-wrapper has-image-no image-position-right">
+													<div class="mas-addons-accordion-text">
+														<div>
+															<p>So far, we have established that the best crypto signals
+																will tell you what pair to trade, whether you should go
+																long or short, and what entry price you should set your
+																limit order at. However, this is only half the battle.
+																After all, in order to trade in a risk-averse manner,
+																you should have an entry strategy in place.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="mas-addons-accordion-single-item yes  elementor-repeater-item-c9a3d65">
+											<div class="mas-addons-accordion-title active-default">
+												<h3 class="mas-addons-accordion-heading">Take-Profit Order Price</h3>
+												<div class="mas-addons-active-inactive-icon"><span
+														class="mas-addons-active-icon"><svg aria-hidden="true"
+															class="e-font-icon-svg e-fas-angle-up" viewBox="0 0 320 512"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z">
+															</path>
+														</svg></span><span class="mas-addons-inactive-icon"><svg
+															aria-hidden="true" class="e-font-icon-svg e-fas-angle-down"
+															viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z">
+															</path>
+														</svg></span></div>
+											</div>
+											<div class="mas-addons-accordion-content">
+												<div
+													class="mas-addons-accordion-content-wrapper has-image-no image-position-right">
+													<div class="mas-addons-accordion-text">
+														<div>
+															<p>There is one more important piece of information that the
+																best crypto signals will provide you – and that’s a
+																suggested take-profit order price. This works the same
+																as a stop-loss order, but instead of mitigating our
+																risks, it will seek to lock in our profits from the
+																trade. In the example we gave earlier, we noted that the
+																suggested take-profit order price is $238.74. This sits
+																at 3% above the suggested limit order price of $231.79 –
+																meaning that we seek to make gains of 3% on this
+																particular crypto signal. Once again, should the
+																take-profit price get matched by the market – the crypto
+																broker in question will automatically close the trade.
+																As such, we can lock in our profits without needing to
+																sit at our device to manually exit the position.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="mas-addons-accordion-single-item yes  elementor-repeater-item-bc291c3">
+											<div class="mas-addons-accordion-title active-default">
+												<h3 class="mas-addons-accordion-heading">Reward vs Risk</h3>
+												<div class="mas-addons-active-inactive-icon"><span
+														class="mas-addons-active-icon"><svg aria-hidden="true"
+															class="e-font-icon-svg e-fas-angle-up" viewBox="0 0 320 512"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z">
+															</path>
+														</svg></span><span class="mas-addons-inactive-icon"><svg
+															aria-hidden="true" class="e-font-icon-svg e-fas-angle-down"
+															viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z">
+															</path>
+														</svg></span></div>
+											</div>
+											<div class="mas-addons-accordion-content">
+												<div
+													class="mas-addons-accordion-content-wrapper has-image-no image-position-right">
+													<div class="mas-addons-accordion-text">
+														<div>
+															<p>Leading on from the above section on stop-loss and
+																take-profit orders, my team of crypto analysts will
+																always have a risk/reward ratio in mind when sending out
+																crypto signals. Leading on from the above section on
+																stop-loss and take-profit orders, my team of analysts
+																will always have a risk/reward ratio in mind when
+																sending out crypto signals. In the example above, the
+																risk was 1% – as that is what our suggested stop-loss
+																price amounted to. The reward part of the equation was
+																3% – as that’s where we positioned our take-profit
+																order. Crucially, most of the crypto signals that we
+																send out will follow a 1/3 risk/reward ratio. In simple
+																terms, this means that we are risking 1% of our capital
+																to make gains of 3%. In doing so, we only need to have
+																one successful trade out of every three to make a
+																profit.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div><!-- #page -->
+
+	<footer class="footer-section">
+    <div data-elementor-type="wp-post" data-elementor-id="11108" class="elementor elementor-11108"
+        data-elementor-post-type="zuzu_footer">
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-7881850 elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+            data-id="7881850" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-28c1bc6"
+                    data-id="28c1bc6" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <section
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-46e78c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+                            data-id="46e78c6" data-element_type="section"
+                            data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-55f6ba2"
+                                    data-id="55f6ba2" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-4bfcee3 mas-addons-sticky-no elementor-widget elementor-widget-zuzu-logo"
+                                            data-id="4bfcee3" data-element_type="widget"
+                                            data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+                                            data-widget_type="zuzu-logo.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="ama-site-logo content-align-">
+                                                    <a href="index" class="ama-site-logo-wrap">
+                                                        <span class='site-logo'><img decoding="async"
+                                                                src="https://lindakeichian.com/images/logo1.png"
+                                                                alt="Linda Keichian"
+                                                                class="navbar-brand__regular white-logo"></span>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-f2c815d mas-addons-sticky-no elementor-widget elementor-widget-text-editor"
+                                            data-id="f2c815d" data-element_type="widget"
+                                            data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <p>I utilize innovative tools to streamline my coaching process,
+                                                    providing clients with cutting-edge insights, real-time market
+                                                    analysis, and personalized support, empowering them to make
+                                                    informed cryptocurrency investment decisions</p>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-93e2e6a zuzu-footer-one-social mas-addons-sticky-no elementor-widget elementor-widget-mas-list-group"
+                                            data-id="93e2e6a" data-element_type="widget"
+                                            data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+                                            data-widget_type="mas-list-group.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="mas-list-group">
+                                                    <ul class="mas-list-group-wrapper layout_2">
+                                                        <li class="mas-list-group-item mas-icon-left">
+                                                            <a href="https://medium.com/@lindakeichian"
+                                                                target="_blank" rel="nofollow">
+                                                                <span class="mas-list-group-icon yes">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-medium" viewBox="0 0 16 16">
+                                                                <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8m4.95 0c0 2.34-1.01 4.236-2.256 4.236S9.463 10.339 9.463 8c0-2.34 1.01-4.236 2.256-4.236S13.975 5.661 13.975 8M16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795"/>
+                                                                </svg> 
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mas-list-group-item mas-icon-left"><a href="https://wa.me/18603016484" target="_blank" rel="nofollow">
+    <span class="mas-list-group-icon yes">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 8.008 0C3.584 0 .003 3.582.003 8.004c0 1.41.368 2.788 1.066 3.999L0 16l4.104-1.066a7.94 7.94 0 0 0 3.904 1.002h.003c4.422 0 8.003-3.582 8.003-8.004a7.94 7.94 0 0 0-2.413-5.606M8.01 14.5a6.47 6.47 0 0 1-3.292-.9l-.235-.14-2.433.633.65-2.37-.153-.244a6.47 6.47 0 0 1-1.002-3.475c0-3.584 2.916-6.5 6.5-6.5a6.45 6.45 0 0 1 4.6 1.906 6.45 6.45 0 0 1 1.9 4.594c0 3.584-2.916 6.5-6.5 6.5m3.72-4.93c-.204-.102-1.21-.597-1.397-.664-.187-.068-.323-.102-.46.102-.136.204-.527.664-.646.8-.119.136-.238.153-.442.051-.204-.102-.86-.317-1.64-1.01-.606-.54-1.015-1.207-1.134-1.411-.119-.204-.013-.314.089-.416.092-.091.204-.238.306-.357.102-.119.136-.204.204-.34.068-.136.034-.255-.017-.357-.051-.102-.46-1.108-.63-1.517-.166-.398-.335-.344-.46-.35-.119-.006-.255-.007-.391-.007a.75.75 0 0 0-.544.255c-.187.204-.714.698-.714 1.701s.731 1.974.833 2.11c.102.136 1.44 2.2 3.487 3.083.487.21.867.335 1.163.429.489.156.934.134 1.286.081.392-.058 1.21-.494 1.38-.971.17-.476.17-.884.119-.971-.051-.085-.187-.136-.391-.238"/>
+        </svg>
+    </span>
+</a></li>
+                                                        <li class="mas-list-group-item mas-icon-left">
+                                                            <a href="https://x.com/LKeichian"
+                                                                target="_blank" rel="nofollow">
+                                                                <span class="mas-list-group-icon yes">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+</svg>
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mas-list-group-item mas-icon-left">
+                                                            <a href="https://t.me/LindaKeichian" target="_blank"
+                                                                rel="nofollow">
+                                                                <span class="mas-list-group-icon yes">
+                                                                    <svg aria-hidden="true"
+                                                                        class="e-font-icon-svg e-fab-telegram-plane"
+                                                                        viewBox="0 0 448 512"
+                                                                        xmlns="http://www.w3.org/2000/svg">
+                                                                        <path
+                                                                            d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
+                                                                        </path>
+                                                                    </svg> 
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e11fdb7"
+                                    data-id="e11fdb7" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-7f783ec mas-addons-sticky-no elementor-widget elementor-widget-heading"
+                                            data-id="7f783ec" data-element_type="widget"
+                                            data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">Quick
+                                                    Links</h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-780185c mas-addons-sticky-no elementor-widget elementor-widget-mas-list-group"
+                                            data-id="780185c" data-element_type="widget"
+                                            data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+                                            data-widget_type="mas-list-group.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="mas-list-group">
+                                                    <ul class="mas-list-group-wrapper layout_1">
+                                                        <li class="mas-list-group-item mas-icon-left">
+                                                            <a href="/" >
+                                                                <span class="mas-list-group-icon no">
+                                                                </span>
+                                                                <span class="mas-list-group-text">
+                                                                    Home </span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mas-list-group-item mas-icon-left">
+                                                            <a href="/about/index" >
+                                                                <span class="mas-list-group-icon no">
+                                                                </span>
+                                                                <span class="mas-list-group-text">
+                                                                    About Me </span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mas-list-group-item mas-icon-left">
+                                                            <a href="/contact/index" >
+                                                                <span class="mas-list-group-icon no">
+                                                                </span>
+                                                                <span class="mas-list-group-text">
+                                                                    Contact Me </span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c29a357"
+                                    data-id="c29a357" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-46a7a73 mas-addons-sticky-no elementor-widget elementor-widget-heading"
+                                            data-id="46a7a73" data-element_type="widget"
+                                            data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">Blog</h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-9f47363 mas-addons-sticky-no elementor-widget elementor-widget-mas-list-group"
+                                            data-id="9f47363" data-element_type="widget"
+                                            data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+                                            data-widget_type="mas-list-group.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="mas-list-group">
+                                                    <ul class="mas-list-group-wrapper layout_1">
+                                                        <li class="mas-list-group-item mas-icon-left">
+                                                            <a href="/2023/03/23/how-we-use-slack-trello-and-teamgantt-for-best-project-management-as-a-digital-agency/index"
+                                                                target="_blank" rel="nofollow">
+                                                                <span class="mas-list-group-icon no">
+                                                                </span>
+                                                                <span class="mas-list-group-text">
+                                                                    Why Trade with Linda Keichian’s Crypto Program
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mas-list-group-item mas-icon-left">
+                                                            <a href="/2023/03/20/yuga-labs-win-landmark-nft-infringement-case-against-nft-giant-yuga-labs-a-sweeping-victory-ryder-ripps/index"
+                                                                target="_blank" rel="nofollow">
+                                                                <span class="mas-list-group-icon no">
+                                                                </span>
+                                                                <span class="mas-list-group-text">
+                                                                    Crypto Signals for Beginners </span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mas-list-group-item mas-icon-left">
+                                                            <a href="/2023/03/23/do-you-need-a-blockchain-project-six-very-easy-steps-to-verify-it-as-wise/index"
+                                                                target="_blank" rel="nofollow">
+                                                                <span class="mas-list-group-icon no">
+                                                                </span>
+                                                                <span class="mas-list-group-text">
+                                                                    Do you need a blockchain project? Six very easy
+                                                                    steps to verify it as wise </span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-3fe7581 elementor-section-boxed elementor-section-height-default elementor-section-height-default mas-addons-sticky-no"
+                            data-id="3fe7581" data-element_type="section"
+                            data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9741aec"
+                                    data-id="9741aec" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-b320d44 mas-addons-sticky-no elementor-widget elementor-widget-heading"
+                                            data-id="b320d44" data-element_type="widget"
+                                            data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">©
+                                                    Copyright 2026 | All Rights Reserved by Linda Keichian</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-59f7601"
+                                    data-id="59f7601" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-c38f1dc mas-addons-sticky-no elementor-widget elementor-widget-mas-list-group"
+                                            data-id="c38f1dc" data-element_type="widget"
+                                            data-settings="{&quot;mas_addons_sticky&quot;:&quot;no&quot;}"
+                                            data-widget_type="mas-list-group.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="mas-list-group">
+                                                    <!-- <ul class="mas-list-group-wrapper layout_2">
+                                                        <li class="mas-list-group-item mas-icon-center">
+                                                            <a href="https://mthemeus.com/demos/wp/zuzu/contact/"
+                                                                target="_blank" rel="nofollow">
+                                                                <span class="mas-list-group-icon no">
+                                                                </span>
+                                                                <span class="mas-list-group-text">
+                                                                    Terms </span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mas-list-group-item mas-icon-center">
+                                                            <span class="mas-list-group-icon no">
+                                                                <svg aria-hidden="true"
+                                                                    class="e-font-icon-svg e-fas-circle"
+                                                                    viewBox="0 0 512 512"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z">
+                                                                    </path>
+                                                                </svg> </span>
+                                                        </li>
+                                                        <li class="mas-list-group-item mas-icon-center">
+                                                            <a href="https://mthemeus.com/demos/wp/zuzu/contact/"
+                                                                target="_blank" rel="nofollow">
+                                                                <span class="mas-list-group-icon no">
+                                                                </span>
+                                                                <span class="mas-list-group-text">
+                                                                    Privacy Policy </span>
+                                                            </a>
+                                                        </li>
+                                                    </ul> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>
+	<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/zuzu\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+	<script>
+		const lazyloadRunObserver = () => {
+			const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+			const lazyloadBackgroundObserver = new IntersectionObserver((entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						let lazyloadBackground = entry.target;
+						if (lazyloadBackground) {
+							lazyloadBackground.classList.add('e-lazyloaded');
+						}
+						lazyloadBackgroundObserver.unobserve(entry.target);
+					}
+				});
+			}, { rootMargin: '200px 0px 200px 0px' });
+			lazyloadBackgrounds.forEach((lazyloadBackground) => {
+				lazyloadBackgroundObserver.observe(lazyloadBackground);
+			});
+		};
+		const events = [
+			'DOMContentLoaded',
+			'elementor/lazyload/observe',
+		];
+		events.forEach((event) => {
+			document.addEventListener(event, lazyloadRunObserver);
+		});
+	</script>
+	<link rel='stylesheet' id='elementor-post-15859-css'
+		href='wp-content/uploads/elementor/css/post-158595113.css?ver=1746571369' media='all' />
+	<link rel='stylesheet' id='elementor-post-15648-css'
+		href='wp-content/uploads/elementor/css/post-156485113.css?ver=1746571369' media='all' />
+	<link rel='stylesheet' id='elementor-post-15423-css'
+		href='wp-content/uploads/elementor/css/post-154235113.css?ver=1746571369' media='all' />
+	<link rel='stylesheet' id='elementor-post-15325-css'
+		href='wp-content/uploads/elementor/css/post-153255113.css?ver=1746571369' media='all' />
+	<link rel='stylesheet' id='elementor-post-15045-css'
+		href='wp-content/uploads/elementor/css/post-150455113.css?ver=1746571369' media='all' />
+	<link rel='stylesheet' id='elementor-post-18-css'
+		href='wp-content/uploads/elementor/css/post-185113.css?ver=1746571369' media='all' />
+	<link rel='stylesheet' id='elementor-post-11409-css'
+		href='wp-content/uploads/elementor/css/post-11409cc9e.css?ver=1746571370' media='all' />
+	<link rel='stylesheet' id='elementor-post-11387-css'
+		href='wp-content/uploads/elementor/css/post-11387cc9e.css?ver=1746571370' media='all' />
+	<link rel='stylesheet' id='elementor-post-11140-css'
+		href='wp-content/uploads/elementor/css/post-11140cc9e.css?ver=1746571370' media='all' />
+	<link rel='stylesheet' id='elementor-post-11108-css'
+		href='wp-content/uploads/elementor/css/post-11108cc9e.css?ver=1746571370' media='all' />
+	<link rel='stylesheet' id='elementor-post-946-css'
+		href='wp-content/uploads/elementor/css/post-946cc9e.css?ver=1746571370' media='all' />
+	<script src="wp-includes/js/jquery/ui/core.minb37e.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+	<script src="wp-includes/js/jquery/ui/datepicker.minb37e.js?ver=1.13.3" id="jquery-ui-datepicker-js"></script>
+	<script id="jquery-ui-datepicker-js-after">
+		jQuery(function (jQuery) { jQuery.datepicker.setDefaults({ "closeText": "Close", "currentText": "Today", "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "nextText": "Next", "prevText": "Previous", "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"], "dateFormat": "MM d, yy", "firstDay": 1, "isRTL": false }); });
+	</script>
+	<script src="wp-includes/js/imagesloaded.minbb93.js?ver=5.0.0" id="imagesloaded-js"></script>
+	<script src="wp-content/plugins/mas-addons/assets/js/jquery.magnific-popup.min90de.js?ver=0.95182400%201746695057"
+		id="magnific-popup-js"></script>
+	<script src="wp-content/plugins/zuzu-helper/assets/js/addon4f12.js?ver=0.95186700%201746695057"
+		id="zuzu-addon-js"></script>
+	<script src="wp-content/plugins/zuzu-helper/assets/js/zuzubc1f.js?ver=0.95187200%201746695057"
+		id="zuzu-js-js"></script>
+	<script src="wp-includes/js/dist/hooks.min4fdd.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+	<script src="wp-includes/js/dist/i18n.minc33c.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+	<script id="wp-i18n-js-after">
+		wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
+	</script>
+	<script src="wp-content/plugins/contact-form-7/includes/swv/js/indexfc7a.js?ver=6.0.6" id="swv-js"></script>
+	<script id="contact-form-7-js-before">
+		var wpcf7 = {
+			"api": {
+				"root": "https:\/\/lindakeichian.com\/wp-json\/",
+				"namespace": "contact-form-7\/v1"
+			}
+		};
+	</script>
+	<script src="wp-content/plugins/contact-form-7/includes/js/indexfc7a.js?ver=6.0.6" id="contact-form-7-js"></script>
+	<script src="wp-includes/js/masonry.min3a05.js?ver=4.2.2" id="masonry-js"></script>
+	<script src="wp-includes/js/jquery/jquery.masonry.minef70.js?ver=3.1.2b" id="jquery-masonry-js"></script>
+	<script src="wp-content/themes/zuzu/assets/js/select2.min.js" id="select2-js"></script>
+	<script src="wp-content/themes/zuzu/assets/js/jquery.nice-select.min.js" id="nice-select-js"></script>
+	<script src="wp-content/themes/zuzu/assets/js/zuzu-main8a54.js?ver=1.0.0" id="zuzu-main-js"></script>
+	<script id="chaty-front-end-js-extra">
+var chaty_settings = {
+    "ajax_url": "https:\/\/lindakeichian.com\/wp-admin\/admin-ajax.php",
+    "analytics": "0",
+    "capture_analytics": "0",
+    "token": "902525f28a",
+
+    "chaty_widgets": [
+        {
+            "id": 0,
+            "identifier": 0,
+
+            "settings": {
+                "cta_type": "simple-view",
+                "cta_body": "",
+                "cta_head": "",
+                "cta_head_bg_color": "",
+                "cta_head_text_color": "",
+                "show_close_button": 1,
+                "position": "right",
+                "custom_position": 1,
+                "bottom_spacing": "25",
+                "side_spacing": "25",
+                "icon_view": "vertical",
+                "default_state": "click",
+                "cta_text": "Contact me",
+                "cta_text_color": "#333333",
+                "cta_bg_color": "#ffffff",
+                "show_cta": "first_click",
+                "is_pending_mesg_enabled": "on",
+                "pending_mesg_count": "1",
+                "pending_mesg_count_color": "#ffffff",
+                "pending_mesg_count_bgcolor": "#dd0000",
+                "widget_icon": "chat-base",
+                "widget_icon_url": "",
+                "font_family": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "widget_size": "54",
+                "custom_widget_size": "54",
+                "is_google_analytics_enabled": 0,
+                "close_text": "Hide",
+                "widget_color": "#A886CD",
+                "widget_icon_color": "#ffffff",
+                "widget_rgb_color": "168,134,205",
+                "has_custom_css": 0,
+                "custom_css": "",
+                "widget_token": "0ae28adbb1",
+                "widget_index": "",
+                "attention_effect": "spin"
+            },
+
+            "triggers": {
+                "has_time_delay": 1,
+                "time_delay": "0",
+                "exit_intent": 0,
+                "has_display_after_page_scroll": 0,
+                "display_after_page_scroll": "0",
+                "auto_hide_widget": 0,
+                "hide_after": 0,
+                "show_on_pages_rules": [],
+                "time_diff": 0,
+                "has_date_scheduling_rules": 0,
+                "date_scheduling_rules": {
+                    "start_date_time": "",
+                    "end_date_time": ""
+                },
+                "date_scheduling_rules_timezone": 0,
+                "day_hours_scheduling_rules_timezone": 0,
+                "has_day_hours_scheduling_rules": [],
+                "day_hours_scheduling_rules": [],
+                "day_time_diff": 0,
+                "show_on_direct_visit": 0,
+                "show_on_referrer_social_network": 0,
+                "show_on_referrer_search_engines": 0,
+                "show_on_referrer_google_ads": 0,
+                "show_on_referrer_urls": [],
+                "has_show_on_specific_referrer_urls": 0,
+                "has_traffic_source": 0,
+                "has_countries": 0,
+                "countries": [],
+                "has_target_rules": 0
+            },
+
+            "channels": [
+                {
+    "channel": "Whatsapp",
+    "value": "18603016484",
+    "hover_text": "WhatsApp",
+    "chatway_position": "",
+    "svg_icon": "<svg width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><circle class=\"color-element\" cx=\"19.4395\" cy=\"19.4395\" r=\"19.4395\" fill=\"#49E670\"\/><path d=\"M12.9821 10.1115C12.7029 10.7767 11.5862 11.442 10.7486 11.575C10.1902 11.7081 9.35269 11.8411 6.84003 10.7767C3.48981 9.44628 1.39593 6.25317 1.25634 6.12012C1.11674 5.85403 2.13001e-06 4.39053 2.13001e-06 2.92702C2.13001e-06 1.46351 0.83755 0.665231 1.11673 0.399139C1.39592 0.133046 1.8147 1.01506e-06 2.23348 1.01506e-06C2.37307 1.01506e-06 2.51267 1.01506e-06 2.65226 1.01506e-06C2.93144 1.01506e-06 3.21063 -2.02219e-06 3.35022 0.532183C3.62941 1.19741 4.32736 2.66092 4.32736 2.79397C4.46696 2.92702 4.46696 3.19311 4.32736 3.32616C4.18777 3.59225 4.18777 3.59224 3.90858 3.85834C3.76899 3.99138 3.6294 4.12443 3.48981 4.39052C3.35022 4.52357 3.21063 4.78966 3.35022 5.05576C3.48981 5.32185 4.18777 6.38622 5.16491 7.18449C6.42125 8.24886 7.39839 8.51496 7.81717 8.78105C8.09636 8.91409 8.37554 8.9141 8.65472 8.648C8.93391 8.38191 9.21309 7.98277 9.49228 7.58363C9.77146 7.31754 10.0507 7.1845 10.3298 7.31754C10.609 7.45059 12.2841 8.11582 12.5633 8.38191C12.8425 8.51496 13.1217 8.648 13.1217 8.78105C13.1217 8.78105 13.1217 9.44628 12.9821 10.1115Z\" transform=\"translate(12.9597 12.9597)\" fill=\"#FAFAFA\"\/><path d=\"M0.196998 23.295L0.131434 23.4862L0.323216 23.4223L5.52771 21.6875C7.4273 22.8471 9.47325 23.4274 11.6637 23.4274C18.134 23.4274 23.4274 18.134 23.4274 11.6637C23.4274 5.19344 18.134 -0.1 11.6637 -0.1C5.19344 -0.1 -0.1 5.19344 -0.1 11.6637C-0.1 13.9996 0.624492 16.3352 1.93021 18.2398L0.196998 23.295ZM5.87658 19.8847L5.84025 19.8665L5.80154 19.8788L2.78138 20.8398L3.73978 17.9646L3.75932 17.906L3.71562 17.8623L3.43104 17.5777C2.27704 15.8437 1.55796 13.8245 1.55796 11.6637C1.55796 6.03288 6.03288 1.55796 11.6637 1.55796C17.2945 1.55796 21.7695 6.03288 21.7695 11.6637C21.7695 17.2945 17.2945 21.7695 11.6637 21.7695C9.64222 21.7695 7.76778 21.1921 6.18227 20.039L6.17557 20.0342L6.16817 20.0305L5.87658 19.8847Z\" transform=\"translate(7.7758 7.77582)\" fill=\"white\" stroke=\"white\" stroke-width=\"0.2\"\/><\/svg>",
+    
+    "is_desktop": 1,
+    "is_mobile": 1,
+
+    "icon_color": "#49E670",
+    "icon_rgb_color": "73,230,112",
+
+    "channel_type": "Custom Link",
+    "custom_image_url": "",
+    "order": "",
+    "pre_set_message": "",
+
+    "is_use_web_version": "0",
+    "is_open_new_tab": "1",
+    "is_default_open": "0",
+    "has_welcome_message": "0",
+
+    "emoji_picker": "0",
+    "input_placeholder": "",
+    "chat_welcome_message": "",
+
+    "wp_popup_headline": "",
+    "wp_popup_nickname": "",
+    "wp_popup_profile": "",
+    "wp_popup_head_bg_color": "",
+
+    "qr_code_image_url": "",
+    "mail_subject": "",
+    "channel_account_type": "personal",
+
+    "contact_form_settings": [],
+    "contact_fields": [],
+
+    "url": "https:\/\/wa.me\/18603016484",
+
+    "mobile_target": "_blank",
+    "desktop_target": "_blank",
+    "target": "_blank",
+
+    "is_agent": 0,
+    "agent_data": [],
+
+    "header_text": "",
+    "header_sub_text": "",
+    "header_bg_color": "",
+    "header_text_color": "",
+
+    "widget_token": "0ae28adbb1",
+    "widget_index": "",
+    "click_event": "",
+    "viber_url": ""
+},
+
+                {
+                    "channel": "Telegram",
+                    "value": "LindaKeichian",
+                    "hover_text": "Telegram",
+                    "chatway_position": "",
+                    "svg_icon": "<svg width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><circle class=\"color-element\" cx=\"19.4395\" cy=\"19.4395\" r=\"19.4395\" fill=\"#3E99D8\"\/><path d=\"M3.56917 -2.55497e-07L0 6.42978L7.5349 1.87535L3.56917 -2.55497e-07Z\" transform=\"translate(13.9704 24.6145)\" fill=\"#E0E0E0\"\/><path d=\"M20.8862 0.133954C20.754 0 20.4897 0 20.2253 0L0.396574 8.03723C0.132191 8.17118 0 8.43909 0 8.707C0 8.97491 0.132191 9.24282 0.396574 9.37677L17.5814 17.414C17.7136 17.414 17.7136 17.414 17.8458 17.414C17.978 17.414 18.1102 17.414 18.1102 17.28C18.2424 17.1461 18.3746 17.0121 18.5068 16.7442L21.1506 0.669769C21.1506 0.535815 21.1506 0.267908 20.8862 0.133954Z\" transform=\"translate(7.36069 10.9512)\" fill=\"white\"\/><path d=\"M13.8801 0L0 11.52V19.4233L3.70136 13.2614L13.8801 0Z\" transform=\"translate(13.9704 11.6208)\" fill=\"#F2F2F2\"\/><\/svg>",
+                    "is_desktop": 1,
+                    "is_mobile": 1,
+                    "icon_color": "#3E99D8",
+                    "icon_rgb_color": "62,153,216",
+                    "channel_type": "Telegram",
+                    "custom_image_url": "",
+                    "order": "",
+                    "pre_set_message": "",
+                    "is_use_web_version": "1",
+                    "is_open_new_tab": "1",
+                    "is_default_open": "0",
+                    "has_welcome_message": "0",
+                    "emoji_picker": "1",
+                    "input_placeholder": "Write your message...",
+                    "chat_welcome_message": "",
+                    "wp_popup_headline": "",
+                    "wp_popup_nickname": "",
+                    "wp_popup_profile": "",
+                    "wp_popup_head_bg_color": "#4AA485",
+                    "qr_code_image_url": "",
+                    "mail_subject": "",
+                    "channel_account_type": "personal",
+                    "contact_form_settings": [],
+                    "contact_fields": [],
+                    "url": "https:\/\/telegram.me\/LindaKeichian",
+                    "mobile_target": "_blank",
+                    "desktop_target": "_blank",
+                    "target": "_blank",
+                    "is_agent": 0,
+                    "agent_data": [],
+                    "header_text": "",
+                    "header_sub_text": "",
+                    "header_bg_color": "",
+                    "header_text_color": "",
+                    "widget_token": "0ae28adbb1",
+                    "widget_index": "",
+                    "click_event": "",
+                    "viber_url": ""
+                }
+            ]
+        }
+    ],
+
+    "data_analytics_settings": "off",
+
+    "lang": {
+        "whatsapp_label": "WhatsApp Message",
+        "hide_whatsapp_form": "Hide WhatsApp Form",
+        "emoji_picker": "Show Emojis"
+    },
+
+    "has_chatway": ""
+};
+</script>	<script src="wp-content/plugins/chaty/js/cht-front-script.minee04.js?ver=3.4.01727722992" id="chaty-front-end-js"
+		defer data-wp-strategy="defer"></script>
+	<script src="wp-content/plugins/chaty/admin/assets/js/picmo-umd.min6b00.js?ver=3.4.0"
+		id="chaty-picmo-js-js"></script>
+	<script src="wp-content/plugins/chaty/admin/assets/js/picmo-latest-umd.min6b00.js?ver=3.4.0"
+		id="chaty-picmo-latest-js-js"></script>
+	<script src="wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.mine92f.js?ver=3.27.2"
+		id="elementor-pro-webpack-runtime-js"></script>
+	<script src="wp-content/plugins/elementor/assets/js/webpack.runtime.min89ce.js?ver=3.28.4"
+		id="elementor-webpack-runtime-js"></script>
+	<script src="wp-content/plugins/elementor/assets/js/frontend-modules.min89ce.js?ver=3.28.4"
+		id="elementor-frontend-modules-js"></script>
+	<script id="elementor-pro-frontend-js-before">
+		var ElementorProFrontendConfig = { "ajaxurl": "https:\/\/lindakeichian.com\/wp-admin\/admin-ajax.php", "nonce": "6ed5c05a29", "urls": { "assets": "https:\/\/lindakeichian.com\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "https:\/\/lindakeichian.com\/wp-json\/" }, "settings": { "lazy_load_background_images": true }, "popup": { "hasPopUps": false }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" }, "x-twitter": { "title": "X" }, "threads": { "title": "Threads" } }, "facebook_sdk": { "lang": "en_US", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/lindakeichian.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };
+	</script>
+	<script src="wp-content/plugins/elementor-pro/assets/js/frontend.mine92f.js?ver=3.27.2"
+		id="elementor-pro-frontend-js"></script>
+	<script id="elementor-frontend-js-before">
+		var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } }, "hasCustomBreakpoints": false }, "version": "3.28.4", "is_static": false, "experimentalFeatures": { "e_font_icon_svg": true, "additional_custom_breakpoints": true, "container": true, "e_local_google_fonts": true, "theme_builder_v2": true, "nested-elements": true, "editor_v2": true, "e_element_cache": true, "home_screen": true }, "urls": { "assets": "https:\/\/lindakeichian.com\/wp-content\/plugins\/elementor\/assets\/", "ajaxurl": "https:\/\/lindakeichian.com\/wp-admin\/admin-ajax.php", "uploadUrl": "https:\/\/lindakeichian.com\/wp-content\/uploads" }, "nonces": { "floatingButtonsClickTracking": "c254974fa9" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 16945, "title": "Linda%20Wintersun%20%E2%80%93%20Crypto%20Coach%20and%20Consultant", "excerpt": "", "featuredImage": false } };
+	</script>
+	<script src="wp-content/plugins/elementor/assets/js/frontend.min89ce.js?ver=3.28.4"
+		id="elementor-frontend-js"></script>
+	<script src="wp-content/plugins/elementor-pro/assets/js/elements-handlers.mine92f.js?ver=3.27.2"
+		id="pro-elements-handlers-js"></script>
+
+</body>
+
+
+</html>
